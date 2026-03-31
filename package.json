@@ -1,0 +1,31 @@
+{
+  "name": "creatures-of-wonder",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.6",
+    "howler": "^2.2",
+    "next": "^15.3",
+    "react": "^19.1",
+    "react-dom": "^19.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/howler": "^2.2",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^15.3",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4",
+    "typescript": "^5.8"
+  }
+}
