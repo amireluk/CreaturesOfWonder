@@ -3,7 +3,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "ספר היצורים המופלאים",
-  description: "ספר יצורים מופלאים לילדים סקרנים",
+  description: "מדריך לאיתור יצורים מסוכנים",
+  manifest: "/CreaturesOfWonder/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "יצורים",
+  },
 };
 
 export default function RootLayout({
