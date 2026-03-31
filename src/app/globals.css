@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "NotoSerifHebrew";
+  src: url("/fonts/NotoSerifHebrew-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --color-parchment: #f5f0e8;
+  --color-parchment-dark: #e8e0d0;
+  --color-ink: #2c1810;
+  --color-ink-light: #5c4033;
+  --color-accent: #8b4513;
+  --color-accent-gold: #c5943a;
+  --color-danger-1: #6b8e6b;
+  --color-danger-2: #b8a038;
+  --color-danger-3: #c87533;
+  --color-danger-4: #b84a28;
+  --color-danger-5: #8b1a1a;
+}
+
+body {
+  font-family: "NotoSerifHebrew", "Noto Serif Hebrew", serif;
+  background-color: var(--color-parchment);
+  color: var(--color-ink);
+  direction: rtl;
+}
