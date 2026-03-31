@@ -1,6 +1,7 @@
 "use client";
 
 import { Creature } from "@/lib/types";
+import { assetUrl } from "@/lib/assets";
 import StatsStrip from "./StatsStrip";
 import RevealCard from "./RevealCard";
 
@@ -14,7 +15,7 @@ export default function CreaturePage({ creature }: CreaturePageProps) {
       {/* Hero Image */}
       <div className="relative w-full aspect-[3/4] rounded-b-2xl overflow-hidden shadow-xl mb-6">
         <img
-          src={creature.image}
+          src={assetUrl(creature.image)}
           alt={creature.name.english}
           className="w-full h-full object-cover"
         />
