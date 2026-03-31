@@ -3,3 +3,6 @@ node_modules/
 out/
 .env*
 *.log
+public/images/references/
+public/images/originals/
+.claude/

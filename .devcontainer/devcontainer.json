@@ -1,0 +1,28 @@
+{
+    "name": "Creature Of Wonders Dev",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+    "runArgs": [ "--name=creatures_of_wonder_dev" ],
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": { "version": "20" },
+        "ghcr.io/devcontainers/features/github-cli:1": "latest"
+    },
+    // Installs Claude and creates a local "Allowlist" for the agent
+    "runArgs": ["--privileged"],
+    "postCreateCommand": "npm install -g @anthropic-ai/claude-code playwright-mcp && npm install && npx playwright install chrome",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "anthropic.claude-code" // Official extension for visual diffs
+            ],
+            "settings": {
+                // Sets the extension to "Auto-accept" file edits by default
+                "claudeCode.initialPermissionMode": "acceptEdits"
+            }
+        }
+    },
+    "mounts": [
+        "source=${localEnv:USERPROFILE}/.claude,target=/home/vscode/.claude,type=bind"
+    ],
+    "remoteUser": "vscode",
+    "forwardPorts": [5173]
+}
