@@ -44,7 +44,7 @@ export interface Creature {
     danger: DangerLevel;
   };
   image: string;
-  description: string;
+  description: string[];
   didYouKnow: string;
   origin?: string;
   reveals: RevealSection[];

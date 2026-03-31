@@ -123,14 +123,14 @@ Layout is determined by **viewport width** (CSS media queries), not device type:
 
 ### 2.2 Content Tone & Language
 
-- **Hebrew without Nikud** for all body text (descriptions, reveals, did-you-know)
-- **Nikud only on creature names**, followed by English in parentheses. Example: טְרוֹל (Troll)
+- **Full Nikud** throughout all Hebrew text (descriptions, reveals, did-you-know, titles)
+- **Creature names**: Hebrew with Nikud followed by English in parentheses. Example: טְרוֹל (Troll)
 - **Reading level**: 2nd-3rd grade native Hebrew speakers (age 7-9)
 - **Tone**: Field guide. The creature is real. You might encounter it. Here's what you need to know.
-  - YES: "טרולים חיים בביצות חשוכות ואוכלים כמעט הכול — אפילו עצמות"
+  - YES: "טְרוֹלִים חַיִּים בִּבְצוֹת חֲשׁוּכוֹת וְאוֹכְלִים כִּמְעַט הַכֹּל"
   - NO: "הטרול הוא יצור מתוך משחק דאנג'נס אנד דרגונס..."
 - **Not childish or goofy**, but not grim either. A slight sense of wonder and adventure.
-- **4-6 sentences** per main description. Enough to learn, short enough to not lose attention.
+- **Main description is split into 2-3 short paragraphs** (stored as `string[]`). This makes the text less intimidating for young readers. Each paragraph is 2-3 sentences. Shorter creatures get 2 paragraphs, more complex ones get 3.
 - "Did you know?" is 1-2 sentences max.
 - Interactive reveals: 2-4 sentences each.
 
@@ -304,7 +304,7 @@ interface Creature {
     danger: 1 | 2 | 3 | 4 | 5;
   };
   image: string;         // path to hero image
-  description: string;   // main text, Hebrew WITHOUT Nikud, 4-6 sentences
+  description: string[]; // 2-3 paragraphs, each 2-3 sentences, full Nikud
   didYouKnow: string;   // 1-2 sentences, Hebrew without Nikud
   origin?: string;       // real-world mythology/folklore origin, if interesting
   reveals: RevealSection[];  // 1-2 interactive sections

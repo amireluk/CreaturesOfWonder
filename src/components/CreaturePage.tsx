@@ -43,10 +43,12 @@ export default function CreaturePage({ creature }: CreaturePageProps) {
       </div>
 
       {/* Main Description */}
-      <div className="mb-6 px-1">
-        <p className="text-lg leading-loose" style={{ color: "var(--color-ink)" }}>
-          {creature.description}
-        </p>
+      <div className="mb-6 px-1 flex flex-col gap-3">
+        {creature.description.map((para, i) => (
+          <p key={i} className="text-lg leading-loose" style={{ color: "var(--color-ink)" }}>
+            {para}
+          </p>
+        ))}
       </div>
 
       {/* Did You Know */}
