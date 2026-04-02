@@ -78,7 +78,7 @@ export default function BookCover({ onOpen }: BookCoverProps) {
             className="text-center text-lg"
             style={{ color: "rgba(197,148,58,0.7)" }}
           >
-            מדריך לאיתור יצורים מסוכנים
+            מדריך מאוייר לילדים
           </motion.p>
 
           {/* Open prompt */}
