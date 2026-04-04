@@ -34,8 +34,8 @@ export default function PortraitBookViewer({ creatures }: BookViewerProps) {
     const dx = e.changedTouches[0].clientX - touchStartX.current;
     touchStartX.current = null;
     if (Math.abs(dx) < SWIPE_THRESHOLD) return;
-    if (dx > 0) goTo(safeIndex + 1);
-    else goTo(safeIndex - 1);
+    if (dx > 0) goTo(safeIndex - 1);
+    else goTo(safeIndex + 1);
   }
 
   const variants = {
