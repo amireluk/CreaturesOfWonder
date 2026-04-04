@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import BookViewer from "@/components/BookViewer";
 import BookCover from "@/components/BookCover";
+import PortraitBookViewer from "@/layouts/portrait/BookViewer";
 import { creatures } from "@/data/creatures";
 
 export default function Home() {
@@ -15,21 +15,21 @@ export default function Home() {
         {!isOpen ? (
           <motion.div
             key="cover"
-            exit={{ rotateY: -90, opacity: 0, transformOrigin: "right center" }}
-            transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-            style={{ perspective: "1200px" }}
+            exit={{ rotateY: -90, transformOrigin: "right center" }}
+            transition={{ type: "spring", stiffness: 220, damping: 28 }}
+            style={{ perspective: "1400px" }}
           >
             <BookCover onOpen={() => setIsOpen(true)} />
           </motion.div>
         ) : (
           <motion.div
             key="book"
-            initial={{ rotateY: 90, opacity: 0 }}
-            animate={{ rotateY: 0, opacity: 1 }}
-            transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-            style={{ perspective: "1200px" }}
+            initial={{ rotateY: 90 }}
+            animate={{ rotateY: 0 }}
+            transition={{ type: "spring", stiffness: 220, damping: 28 }}
+            style={{ perspective: "1400px" }}
           >
-            <BookViewer creatures={creatures} />
+            <PortraitBookViewer creatures={creatures} />
           </motion.div>
         )}
       </AnimatePresence>

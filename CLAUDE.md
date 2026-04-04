@@ -10,7 +10,7 @@ A Hebrew-language web app for kids (ages 7-9, native Hebrew speakers) to explore
 - **Platform**: PWA, portrait-only for v1, tablet-first (wide viewport 768px+), responsive to phone (narrow viewport)
 - **Tech stack**: React + Next.js, TypeScript, Tailwind, Framer Motion (see SPEC.md for details)
 - **Deployment**: GitHub Pages
-- **Language**: Hebrew WITHOUT Nikud for body text. Nikud ONLY on creature names, followed by English name in parentheses.
+- **Language**: Hebrew WITH Nikud on all text. Creature names also include English name in parentheses.
 - **Reading level**: 2nd-3rd grade Hebrew
 - **Content source**: D&D (primarily SRD), personal/non-commercial project
 - **Art style**: Stylized fantasy painting a la Caleb Cleveland (ABCs/123s of D&D). NOT cartoonish, NOT photorealistic. Rich colors, visible brushstrokes, dramatic lighting, slightly exaggerated proportions. Child-appropriate but impressive.
@@ -21,8 +21,8 @@ A Hebrew-language web app for kids (ages 7-9, native Hebrew speakers) to explore
 - **Interactive reveals**: Each creature gets 1-2 special sections chosen to fit that creature (from a roster of options like "Weaknesses", "What do they eat?", "Origin", etc.). Research the creature first, then pick sections — don't force-fit.
 - **Origin section**: Creatures with interesting real-world mythology/folklore roots get an "Origin" reveal section.
 
-## Creature List (25 for v1)
-Red Dragon, Beholder, Mind Flayer, Owlbear, Mimic, Gelatinous Cube, Displacer Beast, Rust Monster, Basilisk, Griffon, Hydra, Treant, Bulette, Purple Worm, Umber Hulk, Wyvern, Lich, Death Knight, Goblin, Skeleton, Troll, Orc, Kobold, Werewolf, Ogre
+## Creature List (26 for v1)
+Red Dragon, Beholder, Mind Flayer, Owlbear, Mimic, Gelatinous Cube, Displacer Beast, Rust Monster, Basilisk, Griffon, Hydra, Treant, Bulette, Purple Worm, Umber Hulk, Wyvern, Lich, Death Knight, Goblin, Skeleton, Troll, Orc, Kobold, Werewolf, Ogre, Siren
 
 ## Content Guidelines
 - Write as if the creature is real — field guide tone, not mythology lesson
