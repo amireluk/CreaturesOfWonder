@@ -40,14 +40,14 @@ export default function PortraitBookViewer({ creatures }: BookViewerProps) {
 
   const variants = {
     enter: (dir: 1 | -1) => ({
-      x: dir > 0 ? "100%" : "-100%",
+      x: dir > 0 ? "-100%" : "100%",
     }),
     center: {
       x: 0,
       transition: { type: "spring" as const, stiffness: 380, damping: 38 },
     },
     exit: (dir: 1 | -1) => ({
-      x: dir > 0 ? "-100%" : "100%",
+      x: dir > 0 ? "100%" : "-100%",
       transition: { type: "spring" as const, stiffness: 380, damping: 38 },
     }),
   };
