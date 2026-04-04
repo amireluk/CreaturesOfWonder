@@ -237,9 +237,19 @@ Before finalizing any creature prompt, verify:
 
 ### Owlbear
 
-> Digital watercolor fantasy illustration with thin loose ink outlines and soft watercolor washes in a muted warm color palette. A large D&D owlbear rearing up on its hind legs in a forest clearing, one massive clawed paw raised mid-swipe. Stocky powerful bear body covered in thick brown-tawny fur, with a large owl-like head — big round amber eyes, sharp curved yellowish beak, small ear tufts on top. A thick feathery ruff around the neck where owl head meets bear body. The body is bulky and muscular, the stance aggressive but more "startled animal" than "attacking monster." Expression is fierce and alert — it just spotted something in its territory. Proportions emphasize the massive bear bulk with the surprisingly expressive owl face. Background is loose impressionistic watercolor — sunlit forest clearing, dappled golden-green light filtering through tall trees, ferns and undergrowth — soft and atmospheric, barely defined. Creature has cleaner linework than background but still feels hand-drawn. Composition centered, edges fading softly to cream, bottom quarter kept simple for text overlay. Portrait orientation 3:4. Approachable but impressive, powerful not cute. In the style of Caleb Cleveland's D&D children's book illustrations. No text, no gore, no wounds, no humans, no photorealism, no 3D rendering, no hard digital edges.
-> Make it adorable.
-> It is walking on 4 legs at the forest with a cub by its side
+> Watercolor and ink illustration on textured cream paper. Thin confident brush-pen ink outlines with transparent watercolor washes, visible paper grain, wet-into-wet color blending, soft warm palette. Warm watercolor washes with solid color presence — NOT washed out or pale. Minimal interior linework — ink defines outer silhouette and face only, watercolor washes handle all body texture. Smooth rounded forms.
+>
+> A large D&D owlbear moving through a dense forest on all four legs, a small round cub padding close behind her flank. Massive stocky bear body with heavy rounded limbs, covered in warm tawny-brown fur rendered as smooth color washes — no drawn fur strands, just warm shadow tones on one side. Large owl head with enormous round amber-orange eyes and a sharp hooked bone-yellow beak — the owl head is the defining feature, slightly oversized on the bear body. A thick feathery ruff of dark warm brown where head meets body, the most detailed part of the illustration. Small rounded ear tufts on top. Paws and claws are rounded and simplified, not emphasized. The cub is a smaller rounder version — same tawny palette, close behind the mother's back leg.
+>
+> Expression is alert and protective — head turned toward the viewer, eyes fully open and focused. She has stopped and is watching you. Not charging, but you have her full attention and she knows exactly where her cub is. The posture is still and coiled: this is the moment before the screech. More watchful guardian than raging beast.
+>
+> Low-angle view from slightly in front and to the side, looking up at the mother. Full body of mother visible, cub visible behind her. Creature fills the frame. Portrait orientation 3:4.
+>
+> Background: loose impressionistic washes — dense forest, warm golden-green light filtering through tall canopy shapes, dappled amber patches on the forest floor. Muted sage and warm brown tones. Barely defined, atmospheric. No ink lines in background — pure watercolor wash shapes only.
+>
+> Edges fade softly to cream paper. Bottom quarter transitions to darker warm forest floor tones, kept simple for text overlay.
+>
+> No text in image. No gore, wounds, or horror. No humans in frame. No photorealism, no 3D rendering, no hard digital edges, no flat cel-shading, no detailed fur linework, no crosshatching, no anime style.
 
 ### Beholder
 
@@ -261,7 +271,7 @@ Before finalizing any creature prompt, verify:
 
 > Watercolor and ink illustration on textured cream paper. Thin confident brush-pen ink outlines with transparent watercolor washes, visible paper grain, wet-into-wet color blending, soft warm palette with gentle coastal sunset accents. Warm watercolor washes with solid color presence — NOT washed out or pale. Minimal interior linework — ink defines outer silhouette and face only, watercolor washes handle all body texture. Smooth rounded forms.
 >
-> A D&D siren perched on a jagged sea rock — a bird-woman with a beautiful human upper body and face, flowing windswept hair streaked with gold and dark brown, tangled with small shells and coral beads. Large powerful wings spread wide behind her — feathers rendered as layered watercolor wash shapes in teal, blue, and warm gold. Iridescence suggested through color shifts, not vivid saturation. Individual feather barbs are NOT drawn — just smooth overlapping wash shapes. Lower body transitions to bird legs with rounded talons gripping the wet rock. The wings are the defining feature — massive and dramatic, filling the upper frame. Skin has a warm golden tone. She wears no clothing — feathers and flowing hair provide natural, tasteful coverage.
+> A D&D siren perched on a jagged sea rock — a bird-woman with a beautiful human upper body and face, flowing windswept hair streaked with gold and dark brown, tangled with small shells and coral beads. Large powerful wings spread wide behind her — feathers rendered as layered watercolor wash shapes in teal, blue, and warm gold. Iridescence suggested through color shifts, not vivid saturation. Individual feather barbs are NOT drawn — just smooth overlapping wash shapes. Lower body transitions to bird legs with rounded talons gripping the wet rock. The wings are the defining feature — massive and dramatic, filling the upper frame. Skin has a warm golden tone. Layered wing feathers and windswept hair naturally cover her upper body.
 >
 > She is singing — head tilted upward, eyes closed, mouth open, completely lost in her own song. One hand raised gracefully as if conducting the wind. The whole pose radiates music — you can almost hear it. Expression is serene and mesmerizing, hauntingly beautiful rather than threatening.
 >
@@ -272,6 +282,38 @@ Before finalizing any creature prompt, verify:
 > Edges fade softly to cream paper. Bottom quarter transitions to darker warm rock tones, kept simple for text overlay.
 >
 > No text in image. No gore, wounds, or horror. No humans in frame. No photorealism, no 3D rendering, no hard digital edges, no flat cel-shading, no detailed fur linework, no crosshatching, no anime style.
+
+### Hydra
+
+> Watercolor and ink illustration on textured cream paper. Thin confident brush-pen ink outlines with transparent watercolor washes, visible paper grain, wet-into-wet color blending, soft warm palette. Warm watercolor washes with solid color presence — NOT washed out or pale. Minimal interior linework — ink defines outer silhouette and face only, watercolor washes handle all body texture. Smooth rounded forms.
+>
+> A massive D&D hydra rising from dark swamp water. The defining feature is a crown of five long sinuous necks erupting from a single powerful dragon-like body — each neck ending in a dragon-headed snout angled in a different direction. The body is huge and upright like a dragon's torso, not low-slung — thick, muscular, elevated above the waterline on four heavy clawed legs. Scales rendered as overlapping flat wash shapes in mottled dark grey-green and olive — no individual scales drawn with ink, just tonal color shifts. A pale yellowish-green underbelly glimpsed below. The five heads are the focal point: elongated dragon snouts, not blunt like a crocodile — one angled directly at the viewer, one turning left, one snapping forward, two rising higher overhead. Each head has rows of jagged teeth, mouth partly open, and flat amber-yellow eyes. The necks are long and serpentine — smooth sinuous curves of muscle rendered in watercolor tonal shifts only, no surface linework.
+>
+> Expression is cold and focused — not enraged, just utterly absorbed in hunger. Every head scanning a different target simultaneously, like a machine that is always eating or about to. No rage, no personality — pure instinct in all directions at once.
+>
+> Low-angle view from just above the waterline, looking up at the ring of rising necks. Creature fills the frame top to bottom. Portrait orientation 3:4.
+>
+> Background: loose impressionistic washes — deep murky swamp water in teal-grey below, misty warm amber-green atmosphere above, barely defined reed and canopy shapes. Swamp mist softening the far distance. No ink lines in background — pure watercolor wash shapes only.
+>
+> Edges fade softly to cream paper. Bottom quarter is dark swamp water tones, kept simple for text overlay.
+>
+> No text in image. No gore, wounds, or horror. No humans in frame. No photorealism, no 3D rendering, no hard digital edges, no flat cel-shading, no individual scale linework, no crosshatching, no anime style.
+
+### Mimic
+
+> Watercolor and ink illustration on textured cream paper. Thin confident brush-pen ink outlines with transparent watercolor washes, visible paper grain, wet-into-wet color blending, soft warm palette. Warm watercolor washes with solid color presence — NOT washed out or pale. Minimal interior linework — ink defines outer silhouette and face only, watercolor washes handle all body texture. Smooth rounded forms.
+>
+> A D&D mimic frozen in the moment of reveal — still chest-shaped in size and proportion, but the lid has torn open into a wide gaping mouth, rows of curved jagged teeth erupting where wood grain was a moment ago. One large round yellowish eye sits on top of the open lid, staring upward with flat lidless attention — perched on the lid like a terrible ornament. A thick rubbery tongue lolls out of the open maw, drooping over the lower teeth. A thick rubbery pseudopod extends forward from one side, reaching toward the viewer. The body is warm wood-brown wash where the disguise holds — smooth flat color, iron bands suggested in grey-brown wash — but around the mouth, eye, and pseudopod, the surface shifts to mottled grey-tan biological flesh. The mouth is the defining feature: comically wide, deeply wrong on a piece of furniture. A few scattered coins and an old bone rest at the base — remnants of previous meals. The whole shape reads as a chest that forgot to keep pretending.
+>
+> Expression is mischievous and delighted — the single eye gleaming with the satisfaction of a perfect trap sprung. Not threatening so much as gleeful. A creature that loves being exactly what it is.
+>
+> Eye-level view from slightly below the open lid, looking up at the open mouth. The chest fills most of the frame. Portrait orientation 3:4.
+>
+> Background: loose impressionistic washes — cool grey-blue stone dungeon wall, warm amber torch-glow from one side. Barely defined. No ink lines in background — pure watercolor wash shapes only.
+>
+> Edges fade softly to cream paper. Bottom quarter is dark stone floor tones, kept simple for text overlay.
+>
+> No text in image. No gore, wounds, or horror. No humans in frame. No photorealism, no 3D rendering, no hard digital edges, no flat cel-shading, no crosshatching, no anime style.
 
 ---
 

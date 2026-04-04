@@ -19,17 +19,12 @@ export default function CreaturePage({ creature }: CreaturePageProps) {
           alt={creature.name.english}
           className="w-full h-full object-cover"
         />
-        {/* Gradient overlay at bottom for name readability */}
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/70 to-transparent" />
-
-        {/* Name overlay */}
         <div className="absolute bottom-4 right-4 left-4 text-right">
           <h1 className="text-4xl font-black text-white drop-shadow-lg leading-tight">
             {creature.name.hebrew}
           </h1>
-          <span className="text-lg text-white/80">
-            ({creature.name.english})
-          </span>
+          <span className="text-lg text-white/80">({creature.name.english})</span>
         </div>
       </div>
 

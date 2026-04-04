@@ -15,19 +15,17 @@ export default function Home() {
         {!isOpen ? (
           <motion.div
             key="cover"
-            exit={{ rotateY: -90, transformOrigin: "right center" }}
-            transition={{ type: "spring", stiffness: 220, damping: 28 }}
-            style={{ perspective: "1400px" }}
+            exit={{ opacity: 0, scale: 0.97 }}
+            transition={{ duration: 0.25 }}
           >
             <BookCover onOpen={() => setIsOpen(true)} />
           </motion.div>
         ) : (
           <motion.div
             key="book"
-            initial={{ rotateY: 90 }}
-            animate={{ rotateY: 0 }}
-            transition={{ type: "spring", stiffness: 220, damping: 28 }}
-            style={{ perspective: "1400px" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.25 }}
           >
             <PortraitBookViewer creatures={creatures} />
           </motion.div>

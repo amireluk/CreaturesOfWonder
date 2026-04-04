@@ -13,36 +13,28 @@ export default function BookCover({ onOpen }: BookCoverProps) {
       style={{ background: "linear-gradient(160deg, #2c1810 0%, #1a0f08 100%)" }}
     >
       {/* Cover card */}
-      <motion.div
-        className="relative w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl cursor-pointer select-none"
+      <div
+        className="relative w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl"
         style={{
           background: "linear-gradient(160deg, #5c2a0e 0%, #3a1a08 100%)",
           boxShadow: "0 25px 60px rgba(0,0,0,0.8), inset 0 0 0 2px rgba(197,148,58,0.4)",
           minHeight: "75vh",
         }}
-        whileHover={{ scale: 1.01 }}
-        whileTap={{ scale: 0.99 }}
-        onClick={onOpen}
       >
         {/* Spine shadow */}
         <div
-          className="absolute top-0 right-0 w-8 h-full pointer-events-none"
+          className="absolute top-0 right-0 w-8 h-full pointer-events-none z-10"
           style={{ background: "linear-gradient(to left, rgba(0,0,0,0.3) 0%, transparent 100%)" }}
         />
 
-        {/* Decorative border */}
-        <div
-          className="absolute inset-4 rounded-xl pointer-events-none"
-          style={{ border: "1px solid rgba(197,148,58,0.35)" }}
-        />
-        <div
-          className="absolute inset-6 rounded-lg pointer-events-none"
-          style={{ border: "1px solid rgba(197,148,58,0.15)" }}
-        />
+        {/* Decorative borders */}
+        <div className="absolute inset-4 rounded-xl pointer-events-none z-10"
+          style={{ border: "1px solid rgba(197,148,58,0.35)" }} />
+        <div className="absolute inset-6 rounded-lg pointer-events-none z-10"
+          style={{ border: "1px solid rgba(197,148,58,0.15)" }} />
 
         {/* Content */}
         <div className="relative h-full flex flex-col items-center justify-center px-8 py-12" style={{ minHeight: "75vh" }}>
-          {/* Icon */}
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
@@ -52,7 +44,6 @@ export default function BookCover({ onOpen }: BookCoverProps) {
             🐉
           </motion.div>
 
-          {/* Title */}
           <motion.h1
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -60,7 +51,7 @@ export default function BookCover({ onOpen }: BookCoverProps) {
             className="text-4xl font-black text-center leading-tight mb-3"
             style={{ color: "var(--color-accent-gold)", textShadow: "0 2px 12px rgba(0,0,0,0.6)" }}
           >
-            ספר היצורים המופלאים
+            סֵפֶר הַיְּצוּרִים הַמֻּפְלָאִים
           </motion.h1>
 
           <motion.div
@@ -78,21 +69,23 @@ export default function BookCover({ onOpen }: BookCoverProps) {
             className="text-center text-lg"
             style={{ color: "rgba(197,148,58,0.7)" }}
           >
-            מדריך מאוייר לילדים
+            מַדְרִיךְ מְאוּיָּר לִילָדִים
           </motion.p>
 
-          {/* Open prompt */}
-          <motion.div
+          {/* Open button */}
+          <motion.button
             initial={{ opacity: 0 }}
             animate={{ opacity: [0, 1, 0.6, 1] }}
             transition={{ delay: 1.4, duration: 0.6, repeat: Infinity, repeatDelay: 1.5 }}
+            onClick={onOpen}
+            whileTap={{ scale: 0.97 }}
             className="absolute bottom-12 text-center"
-            style={{ color: "rgba(197,148,58,0.6)" }}
+            style={{ color: "rgba(197,148,58,0.6)", background: "none", border: "none" }}
           >
-            <p className="text-sm">לחץ לפתיחה</p>
-          </motion.div>
+            <p className="text-sm">לְחַץ לִפְתִיחָה</p>
+          </motion.button>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }
