@@ -18,8 +18,8 @@ const dangerLabels: Record<number, string> = {
   1: "נמוכה",
   2: "בינונית",
   3: "גבוהה",
-  4: "מסוכן",
-  5: "קטלני",
+  4: "מסוכנת",
+  5: "קטלנית",
 };
 
 export default function SearchPanel({

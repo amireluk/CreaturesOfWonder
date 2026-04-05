@@ -287,7 +287,7 @@ Before finalizing any creature prompt, verify:
 
 > Watercolor and ink illustration on textured cream paper. Thin confident brush-pen ink outlines with transparent watercolor washes, visible paper grain, wet-into-wet color blending, soft warm palette. Warm watercolor washes with solid color presence — NOT washed out or pale. Minimal interior linework — ink defines outer silhouette and face only, watercolor washes handle all body texture. Smooth rounded forms.
 >
-> A massive D&D hydra bursting upward from dark swamp water, body mostly submerged — only the broad scaled torso visible above the surface, no legs, no claws, the waterline cutting across the lower body. The defining feature is five long sinuous necks erupting from the torso, mid-motion — some lunging forward, some recoiling to strike, one twisting sideways — a thrashing crown of serpentine dragon necks in the middle of an attack. Scales rendered as overlapping flat wash shapes in mottled dark grey-green and olive — no individual scales drawn with ink, just tonal color shifts. The five heads all have elongated dragon snouts — not blunt, not crocodilian — with rows of jagged teeth, mouths open or mid-snap, and flat amber-yellow eyes. The necks are long and serpentine, smooth sinuous curves of muscle rendered in watercolor tonal shifts only, no surface linework.
+> A massive D&D hydra erupting from dark swamp water, deeply submerged — only the upper torso and shoulders visible above the surface, everything below the chest hidden under dark water. The defining feature is five long sinuous necks erupting from the torso, mid-motion — some lunging forward, some recoiling to strike, one twisting sideways — a thrashing crown of serpentine dragon necks in the middle of an attack. Scales rendered as overlapping flat wash shapes in mottled dark grey-green and olive — no individual scales drawn with ink, just tonal color shifts. The five heads all have elongated dragon snouts — not blunt, not crocodilian — with rows of jagged teeth, mouths open or mid-snap, and flat amber-yellow eyes. The necks are long and serpentine, smooth sinuous curves of muscle rendered in watercolor tonal shifts only, no surface linework.
 >
 > All five heads are in motion — lunging, snapping, weaving. Pure hungry violence, no hesitation. The creature feels like it erupted from the water one second ago and everything within reach is a target.
 >
@@ -296,6 +296,22 @@ Before finalizing any creature prompt, verify:
 > Background: loose impressionistic washes — deep murky swamp water in teal-grey below, misty warm amber-green atmosphere above, barely defined reed and canopy shapes. Swamp mist softening the far distance. No ink lines in background — pure watercolor wash shapes only.
 >
 > Edges fade softly to cream paper. Bottom quarter is dark swamp water tones, kept simple for text overlay.
+>
+> No text in image. No gore, wounds, or horror. No humans in frame. No photorealism, no 3D rendering, no hard digital edges, no flat cel-shading, no individual scale linework, no crosshatching, no anime style.
+
+### Hydra (Alternative — Disney-inspired)
+
+> Watercolor and ink illustration on textured cream paper. Thin confident brush-pen ink outlines with transparent watercolor washes, visible paper grain, wet-into-wet color blending, soft warm palette. Warm watercolor washes with solid color presence — NOT washed out or pale. Minimal interior linework — ink defines outer silhouette and face only, watercolor washes handle all body texture. Smooth rounded forms.
+>
+> A D&D hydra standing on dry rocky terrain — no water. Body is upright and serpentine — a rounded, soft torso tapering into a long tail, NOT muscular or dense. Two stubby hind legs visible at the base, no front arms or forearms. The silhouette reads as a big soft sausage-body balanced on two small legs with five wild necks shooting out of the top — slightly ridiculous and all the better for it. Body and necks rendered in deep muted purple-grey watercolor washes with warm violet shadows — no individual scales drawn, just tonal shifts. A spiky ridge runs along the top of each neck from head to base, rendered as a dark wash shape, not drawn with individual spines. The five heads have expressive elongated dragon snouts — goofy characterful faces, each with its own ridiculous personality — with rows of sharp teeth, mouths open wide, and bright orange eyes with narrow slit pupils. One or two tongues lolling out dramatically. The necks are long and serpentine, loose and rubbery-looking, smooth sinuous curves rendered in watercolor tonal shifts only.
+>
+> Expression is goofy and gleeful — these heads are having a great time. One looks cross-eyed, one is mid-screech, one grins too wide, one looks genuinely surprised by its own existence. The whole creature radiates chaotic energy. Think Disney Hercules: threatening in scale, absurd in personality.
+>
+> Extreme low-angle view looking sharply up from ground level — the hydra towers overhead on rocky terrain. Full body visible, two hind legs planted on rock, necks and heads filling the upper frame. Portrait orientation 3:4.
+>
+> Background: loose impressionistic washes — jagged rocky ground in dark warm grey below, stormy blue-grey sky above with a warm amber break of light on the horizon. No water anywhere. Barely defined rock shapes, no outlines. No ink lines in background — pure watercolor wash shapes only.
+>
+> Edges fade softly to cream paper. Bottom quarter is dark rocky ground tones, kept simple for text overlay.
 >
 > No text in image. No gore, wounds, or horror. No humans in frame. No photorealism, no 3D rendering, no hard digital edges, no flat cel-shading, no individual scale linework, no crosshatching, no anime style.
 

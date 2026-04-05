@@ -22,7 +22,6 @@ export default function PortraitBookViewer({ creatures }: BookViewerProps) {
     if (next < 0 || next >= creatures.length) return;
     setDirection(next > safeIndex ? 1 : -1);
     setIndex(next);
-    window.scrollTo({ top: 0, behavior: "instant" });
   }, [safeIndex, creatures.length]);
 
   function onTouchStart(e: React.TouchEvent) {
