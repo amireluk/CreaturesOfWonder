@@ -9,14 +9,47 @@ const path = require("path");
 const contentDir = path.resolve(__dirname, "../content");
 const outputDir = path.resolve(__dirname, "../src/data/creatures");
 
-function getText(field, fieldPath) {
-  if (typeof field === "string") return field;
-  if (field.he_nikud) return field.he_nikud;
-  if (field.he) return field.he;
-  throw new Error(`Missing Hebrew text at: ${fieldPath}`);
+function getHebrew(lang, fieldPath) {
+  if (!lang) throw new Error(`Missing language block at: ${fieldPath}`);
+  return lang;
 }
 
 function buildCreature(content) {
+  // Support both new top-level language sections and legacy per-field format
+  const isNew = content.en && !content.description;
+
+  if (isNew) {
+    const heb = content.he_nikud || content.he;
+    if (!heb) throw new Error(`Missing he_nikud and he blocks in ${content.id}`);
+
+    if (!heb.description || heb.description.some((d) => !d))
+      throw new Error(`Missing Hebrew description in ${content.id}`);
+    if (!heb.didYouKnow)
+      throw new Error(`Missing Hebrew didYouKnow in ${content.id}`);
+
+    return {
+      id: content.id,
+      name: content.name,
+      stats: content.stats,
+      image: content.image,
+      description: heb.description,
+      didYouKnow: heb.didYouKnow,
+      reveals: content.reveals.map((r, i) => ({
+        type: r.type,
+        title: heb.reveals[i].title,
+        content: heb.reveals[i].content,
+      })),
+    };
+  }
+
+  // Legacy per-field format fallback
+  function getText(field, fieldPath) {
+    if (typeof field === "string") return field;
+    if (field.he_nikud) return field.he_nikud;
+    if (field.he) return field.he;
+    throw new Error(`Missing Hebrew text at: ${fieldPath}`);
+  }
+
   return {
     id: content.id,
     name: content.name,

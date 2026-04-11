@@ -22,10 +22,13 @@ If it does NOT exist:
 
 Read `content/$ARGUMENTS.json`.
 
-For each text field (`description[]`, `didYouKnow`, `reveals[].title`, `reveals[].content`):
-- `he_nikud` is empty AND `en` exists → translate `en` to Hebrew + add full Nikud → write to `he_nikud`
+The JSON has top-level language sections: `en`, `he`, `he_nikud`. Each contains `description[]`, `didYouKnow`, and `reveals[]` (with `title` + `content` per entry).
+
+For each text field across `description`, `didYouKnow`, `reveals[].title`, `reveals[].content`:
+- `he_nikud` field is empty AND `en` exists → translate `en` to Hebrew + add full Nikud → write to `he_nikud`
+- `he` field is empty but `he_nikud` is populated → strip nikud (remove U+0591–U+05C7) → write to `he`
 - `he` is populated but `he_nikud` is empty → add Nikud to `he` → write to `he_nikud`
-- Both are populated → leave as-is (unless user said to retranslate a specific field)
+- User said to retranslate a specific field → clear that field in both `he` and `he_nikud`, retranslate
 
 **Hebrew rules:**
 - 2nd-3rd grade reading level (ages 7-9, native Hebrew speakers)

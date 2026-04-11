@@ -55,10 +55,13 @@ Single ambient track for v1. Suno prompt in SPEC.md.
 Creature content lives in `content/{creature}.json`. The `src/data/creatures/*.ts` files are **auto-generated** — never edit them directly. Run `node scripts/generate.js <id>` (or `--all`) to regenerate after editing.
 
 ### Content file structure
-Each translatable text field has three versions:
-- `en` — English (source of truth, always write this first)
-- `he` — Hebrew without Nikud (optional review step)
-- `he_nikud` — Hebrew with full Nikud (final, feeds into `.ts`)
+Top-level language sections (not per-field):
+- `en` — all English text (source of truth)
+- `he` — all Hebrew without Nikud (auto-derived by stripping nikud; for review)
+- `he_nikud` — all Hebrew with full Nikud (final, feeds into `.ts`)
+- `reveals` — array of `{ type }` only (type is not translatable)
+
+Each language block contains: `description[]`, `didYouKnow`, `reveals[]` (with `title` + `content` per entry, indexed to match top-level `reveals`).
 
 ### When asked to "apply text pipeline for [creature]"
 1. Read `content/{creature}.json`

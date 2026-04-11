@@ -1,51 +1,72 @@
 {
   "id": "hydra",
-  "name": { "hebrew": "הִידְרָה", "english": "Hydra" },
-  "stats": { "habitat": "water", "size": "huge", "danger": 4 },
-  "image": "/images/creatures/hydra.webp",
-  "description": [
-    {
-      "en": "The Hydra is an enormous creature that lives in swamps and rivers — a massive reptilian body with five heads on long independent necks, each head as large as a wolf. The heads move independently and can attack five different targets at the same moment.",
-      "he": "",
-      "he_nikud": "הַהִידְרָה הִיא חַיָּה עֲנָקִית שֶׁחַיָּה בִּבְצוֹת וּבְיַאוֹרוֹת — גּוּף שֶׁל זוֹחֵל עָצוּם עִם חָמֵשׁ רָאשִׁים עַל צַוָּארִים אֲרֻכִּים, כָּל אֶחָד גְּדוֹל כְּמוֹ זְאֵב. הָרָאשִׁים נָעִים בְּנִפְרָד וְיוֹדְעִים לִתְקֹּף חָמֵשׁ אֲנָשִׁים שׁוֹנִים בְּאוֹתוֹ רֶגַע."
-    },
-    {
-      "en": "But what's more frightening than its size is what happens when you cut off one of its heads: instead of one head, two grow back. Every sword blow you land only makes it bigger.",
-      "he": "",
-      "he_nikud": "אֲבָל מַה שֶּׁמַּפְחִיד יוֹתֵר מִגֹּדְלָהּ הוּא מַה שֶּׁקּוֹרֶה כְּשֶׁחוֹתְכִים לָהּ רֹאשׁ: בְּמָקוֹם הָרֹאשׁ הָאֶחָד צוֹמְחִים שְׁנַיִם. כָּל פֶּצַע שֶׁמַּנְחִיתִים עָלֶיהָ בְּחֶרֶב רַק מַגְדִּיל אוֹתָהּ."
-    }
-  ],
-  "didYouKnow": {
-    "en": "When the Hydra sleeps, one head always stays awake and on guard. You cannot sneak up on a sleeping Hydra.",
-    "he": "",
-    "he_nikud": "כְּשֶׁהַהִידְרָה יְשֵׁנָה, רֹאשׁ אֶחָד תָּמִיד נִשְׁאָר עֵר וְשׁוֹמֵר. אִי אֶפְשָׁר לְהַפְתִּיעַ הִידְרָה יְשֵׁנָה."
+  "name": {
+    "hebrew": "הִידְרָה",
+    "english": "Hydra"
   },
+  "stats": {
+    "habitat": "water",
+    "size": "huge",
+    "danger": 4
+  },
+  "image": "/images/creatures/hydra.webp",
   "reveals": [
     {
-      "type": "weaknesses",
-      "title": {
-        "en": "How do you defeat it?",
-        "he": "",
-        "he_nikud": "אֵיךְ מְנַצְּחִים אוֹתָהּ?"
-      },
-      "content": {
-        "en": "Heracles, the Greek hero, discovered the secret: after every cut — you must immediately burn the stump with fire, and then the head cannot grow back. This is the exact opposite of the troll — for the troll, fire stops regeneration entirely, but for the Hydra, fire only stops the heads from regrowing. Without fire — every sword swing only makes it bigger.",
-        "he": "",
-        "he_nikud": "הֶרָקְלֶס, הַגִּבּוֹר הַיְּווָנִי, גִּלָּה אֶת הַסּוֹד: אַחֲרֵי כָּל חִתּוּךְ — צְרִיכִים מִיַּד לִשְׂרֹף אֶת הַגֶּדֶם בָּאֵשׁ, וְאָז הָרֹאשׁ לֹא יָכוֹל לִצְמֹחַ חָזָרָה. זֶה בְּדִיּוּק הֵפֶּךְ הַטְּרוֹל — לַטְּרוֹל אֵשׁ עוֹצֶרֶת אֶת הַהִתְחַדְּשׁוּת, אֲבָל לַהִידְרָה אֵשׁ עוֹצֶרֶת רַק אֶת צְמִיחַת הָרָאשִׁים. בְּלִי אֵשׁ — כָּל מָכָּה בְּחֶרֶב רַק מְגַדֶּלֶת אוֹתָהּ."
-      }
+      "type": "weaknesses"
     },
     {
-      "type": "origin",
-      "title": {
-        "en": "Where did the story come from?",
-        "he": "",
-        "he_nikud": "מֵאַיִן הַסִּיפּוּר הִגִּיעַ?"
-      },
-      "content": {
-        "en": "Two thousand five hundred years ago, the Greeks told stories of Heracles being sent to kill the Hydra in the swamps of Lerna. For every head he cut, two grew back — until his nephew Iolaus thought of the solution with fire. The story was so famous that D&D simply took it straight from Greek mythology — heads, regrowth, and the fire solution included.",
-        "he": "",
-        "he_nikud": "לִפְנֵי אַלְפַּיִם וַחֲמֵשׁ מֵאוֹת שָׁנָה, הַיְּווָנִים סִפְּרוּ עַל הֶרָקְלֶס שֶׁנִּשְׁלַח לַהֲרֹג אֶת הַהִידְרָה בְּבִצַּת לֶרְנֶה. לְכָל רֹאשׁ שֶׁחָתַךְ צָמְחוּ שְׁנַיִם, עַד שֶׁאָחְיָנוֹ אִיּוֹלָאוּס חָשַׁב עַל הַפִּתְרוֹן עִם הָאֵשׁ. הַסִּיפּוּר הַזֶּה הָיָה כָּל כָּךְ מְפֻרְסָם שֶׁה-D&D פָּשׁוּט לָקַח אוֹתוֹ מֵהַמִּיתוֹלוֹגְיָה הַיְּווָנִית כְּמוֹ שֶׁהוּא — כּוּלֵּל הָרָאשִׁים, הַצְּמִיחָה, וְהַפִּתְרוֹן בָּאֵשׁ."
-      }
+      "type": "origin"
     }
-  ]
+  ],
+  "en": {
+    "description": [
+      "The Hydra is an enormous creature that lives in swamps and rivers — a massive reptilian body with five heads on long independent necks, each head as large as a wolf. The heads move independently and can attack five different targets at the same moment.",
+      "But what's more frightening than its size is what happens when you cut off one of its heads: instead of one head, two grow back. Every sword blow you land only makes it bigger."
+    ],
+    "didYouKnow": "When the Hydra sleeps, one head always stays awake and on guard. You cannot sneak up on a sleeping Hydra.",
+    "reveals": [
+      {
+        "title": "How do you defeat it?",
+        "content": "Heracles, the Greek hero, discovered the secret: after every cut — you must immediately burn the stump with fire, and then the head cannot grow back. This is the exact opposite of the troll — for the troll, fire stops regeneration entirely, but for the Hydra, fire only stops the heads from regrowing. Without fire — every sword swing only makes it bigger."
+      },
+      {
+        "title": "Where did the story come from?",
+        "content": "Two thousand five hundred years ago, the Greeks told stories of Heracles being sent to kill the Hydra in the swamps of Lerna. For every head he cut, two grew back — until his nephew Iolaus thought of the solution with fire. The story was so famous that D&D simply took it straight from Greek mythology — heads, regrowth, and the fire solution included."
+      }
+    ]
+  },
+  "he": {
+    "description": [
+      "ההידרה היא חיה ענקית שחיה בבצות וביאורות — גוף של זוחל עצום עם חמש ראשים על צוארים ארכים, כל אחד גדול כמו זאב. הראשים נעים בנפרד ויודעים לתקף חמש אנשים שונים באותו רגע.",
+      "אבל מה שמפחיד יותר מגדלה הוא מה שקורה כשחותכים לה ראש: במקום הראש האחד צומחים שנים. כל פצע שמנחיתים עליה בחרב רק מגדיל אותה."
+    ],
+    "didYouKnow": "כשההידרה ישנה, ראש אחד תמיד נשאר ער ושומר. אי אפשר להפתיע הידרה ישנה.",
+    "reveals": [
+      {
+        "title": "איך מנצחים אותה?",
+        "content": "הרקלס, הגבור היווני, גלה את הסוד: אחרי כל חתוך — צריכים מיד לשרף את הגדם באש, ואז הראש לא יכול לצמח חזרה. זה בדיוק הפך הטרול — לטרול אש עוצרת את ההתחדשות, אבל להידרה אש עוצרת רק את צמיחת הראשים. בלי אש — כל מכה בחרב רק מגדלת אותה."
+      },
+      {
+        "title": "מאין הסיפור הגיע?",
+        "content": "לפני אלפים וחמש מאות שנה, היוונים ספרו על הרקלס שנשלח להרג את ההידרה בבצת לרנה. לכל ראש שחתך צמחו שנים, עד שאחינו איולאוס חשב על הפתרון עם האש. הסיפור הזה היה כל כך מפרסם שה-D&D פשוט לקח אותו מהמיתולוגיה היוונית כמו שהוא — כולל הראשים, הצמיחה, והפתרון באש."
+      }
+    ]
+  },
+  "he_nikud": {
+    "description": [
+      "הַהִידְרָה הִיא חַיָּה עֲנָקִית שֶׁחַיָּה בִּבְצוֹת וּבְיַאוֹרוֹת — גּוּף שֶׁל זוֹחֵל עָצוּם עִם חָמֵשׁ רָאשִׁים עַל צַוָּארִים אֲרֻכִּים, כָּל אֶחָד גְּדוֹל כְּמוֹ זְאֵב. הָרָאשִׁים נָעִים בְּנִפְרָד וְיוֹדְעִים לִתְקֹּף חָמֵשׁ אֲנָשִׁים שׁוֹנִים בְּאוֹתוֹ רֶגַע.",
+      "אֲבָל מַה שֶּׁמַּפְחִיד יוֹתֵר מִגֹּדְלָהּ הוּא מַה שֶּׁקּוֹרֶה כְּשֶׁחוֹתְכִים לָהּ רֹאשׁ: בְּמָקוֹם הָרֹאשׁ הָאֶחָד צוֹמְחִים שְׁנַיִם. כָּל פֶּצַע שֶׁמַּנְחִיתִים עָלֶיהָ בְּחֶרֶב רַק מַגְדִּיל אוֹתָהּ."
+    ],
+    "didYouKnow": "כְּשֶׁהַהִידְרָה יְשֵׁנָה, רֹאשׁ אֶחָד תָּמִיד נִשְׁאָר עֵר וְשׁוֹמֵר. אִי אֶפְשָׁר לְהַפְתִּיעַ הִידְרָה יְשֵׁנָה.",
+    "reveals": [
+      {
+        "title": "אֵיךְ מְנַצְּחִים אוֹתָהּ?",
+        "content": "הֶרָקְלֶס, הַגִּבּוֹר הַיְּווָנִי, גִּלָּה אֶת הַסּוֹד: אַחֲרֵי כָּל חִתּוּךְ — צְרִיכִים מִיַּד לִשְׂרֹף אֶת הַגֶּדֶם בָּאֵשׁ, וְאָז הָרֹאשׁ לֹא יָכוֹל לִצְמֹחַ חָזָרָה. זֶה בְּדִיּוּק הֵפֶּךְ הַטְּרוֹל — לַטְּרוֹל אֵשׁ עוֹצֶרֶת אֶת הַהִתְחַדְּשׁוּת, אֲבָל לַהִידְרָה אֵשׁ עוֹצֶרֶת רַק אֶת צְמִיחַת הָרָאשִׁים. בְּלִי אֵשׁ — כָּל מָכָּה בְּחֶרֶב רַק מְגַדֶּלֶת אוֹתָהּ."
+      },
+      {
+        "title": "מֵאַיִן הַסִּיפּוּר הִגִּיעַ?",
+        "content": "לִפְנֵי אַלְפַּיִם וַחֲמֵשׁ מֵאוֹת שָׁנָה, הַיְּווָנִים סִפְּרוּ עַל הֶרָקְלֶס שֶׁנִּשְׁלַח לַהֲרֹג אֶת הַהִידְרָה בְּבִצַּת לֶרְנֶה. לְכָל רֹאשׁ שֶׁחָתַךְ צָמְחוּ שְׁנַיִם, עַד שֶׁאָחְיָנוֹ אִיּוֹלָאוּס חָשַׁב עַל הַפִּתְרוֹן עִם הָאֵשׁ. הַסִּיפּוּר הַזֶּה הָיָה כָּל כָּךְ מְפֻרְסָם שֶׁה-D&D פָּשׁוּט לָקַח אוֹתוֹ מֵהַמִּיתוֹלוֹגְיָה הַיְּווָנִית כְּמוֹ שֶׁהוּא — כּוּלֵּל הָרָאשִׁים, הַצְּמִיחָה, וְהַפִּתְרוֹן בָּאֵשׁ."
+      }
+    ]
+  }
 }

@@ -62,7 +62,7 @@ Don't force-fit. The sections should feel essential for THIS creature, not gener
 
 ### 4. Write English content to `content/$ARGUMENTS.json`
 
-Create `content/$ARGUMENTS.json` with this structure (fill ALL `en` fields; leave `he` and `he_nikud` empty):
+Create `content/$ARGUMENTS.json` with this structure. Fill all `en` fields; leave `he` and `he_nikud` empty (they'll be populated by the text pipeline):
 
 ```json
 {
@@ -77,38 +77,32 @@ Create `content/$ARGUMENTS.json` with this structure (fill ALL `en` fields; leav
     "danger": [1-5]
   },
   "image": "/images/creatures/$ARGUMENTS.webp",
-  "description": [
-    {
-      "en": "[Paragraph 1: 3-4 sentences. Field guide tone — the creature IS real. Appearance and where it lives.]",
-      "he": "",
-      "he_nikud": ""
-    },
-    {
-      "en": "[Paragraph 2: 3-4 sentences. Behavior, how it hunts or lives, what makes it dangerous or interesting.]",
-      "he": "",
-      "he_nikud": ""
-    }
-  ],
-  "didYouKnow": {
-    "en": "[Single punchy sentence. The most surprising fact. Kids aged 7-9 audience.]",
-    "he": "",
-    "he_nikud": ""
-  },
   "reveals": [
-    {
-      "type": "[reveal type]",
-      "title": {
-        "en": "[Short section heading, 3-6 words]",
-        "he": "",
-        "he_nikud": ""
-      },
-      "content": {
-        "en": "[3-5 sentences of reveal content. Can be more specific/detailed than main description.]",
-        "he": "",
-        "he_nikud": ""
+    { "type": "[reveal type]" }
+  ],
+  "en": {
+    "description": [
+      "[Paragraph 1: 3-4 sentences. Field guide tone — the creature IS real. Appearance and where it lives.]",
+      "[Paragraph 2: 3-4 sentences. Behavior, how it hunts or lives, what makes it dangerous or interesting.]"
+    ],
+    "didYouKnow": "[Single punchy sentence. The most surprising fact. Kids aged 7-9 audience.]",
+    "reveals": [
+      {
+        "title": "[Short section heading, 3-6 words]",
+        "content": "[3-5 sentences of reveal content.]"
       }
-    }
-  ]
+    ]
+  },
+  "he": {
+    "description": ["", ""],
+    "didYouKnow": "",
+    "reveals": [{ "title": "", "content": "" }]
+  },
+  "he_nikud": {
+    "description": ["", ""],
+    "didYouKnow": "",
+    "reveals": [{ "title": "", "content": "" }]
+  }
 }
 ```
 

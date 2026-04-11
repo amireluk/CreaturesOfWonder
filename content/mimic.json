@@ -1,51 +1,72 @@
 {
   "id": "mimic",
-  "name": { "hebrew": "מִימִיק", "english": "Mimic" },
-  "stats": { "habitat": "underground", "size": "medium", "danger": 2 },
-  "image": "/images/creatures/mimic.webp",
-  "description": [
-    {
-      "en": "Deep in the dungeon, there's a chest that looks like every other chest — same wood, same iron bands, same lock. But this chest is alive. It waits in silence for whole weeks without moving, until a single hand touches it.",
-      "he": "",
-      "he_nikud": "עָמֹק בְּמַעֲמַקֵּי הַמְּעָרָה יֵשׁ אֶרֶגַּז שֶׁנִּרְאֶה כְּמוֹ כָּל אֶרֶגַּז אַחֵר — אוֹתוֹ עֵץ, אוֹתָם פַּסֵּי בַּרְזֶל, אוֹתוֹ מַנְעוּל. אֲבָל הָאֶרֶגַּז הַזֶּה חַי. הוּא מַמְתִּין בְּשֶׁקֶט שָׁבוּעוֹת שְׁלֵמִים, בְּלִי לָזוּז, עַד שֶׁיָּד אַחַת תִּגַּע בּוֹ."
-    },
-    {
-      "en": "The moment someone touches it, the Mimic springs to life. From the lid, a huge mouth opens with rows of sharp teeth. The hand sticks to its body with a material so powerful that escape is impossible. The Mimic doesn't chase prey — it picks a good spot, waits, and becomes the trap itself.",
-      "he": "",
-      "he_nikud": "בְּרֶגַע שֶׁנּוֹגְעִים בּוֹ, הַמִּימִיק מַגִּיחַ לְחַיִּים. מֵהַמַּכְסָה נִפְתָּח פֶּה עָנָק עִם שׁוּרוֹת שֶׁל שִׁנַּיִם חַדּוֹת. הַיָּד נִדְבֶּקֶת לְגוּפוֹ בְּחֹמֶר כָּל כָּךְ חָזָק שֶׁאִי אֶפְשָׁר לְהַשְׁתַּחְרֵר. הַמִּימִיק לֹא רוֹדֵף אַחַר טֶרֶף — הוּא בּוֹחֵר מָקוֹם טוֹב, מְחַכֶּה, וְהוֹפֵךְ לַמְּלֶכֶדֶת עַצְמָהּ."
-    }
-  ],
-  "didYouKnow": {
-    "en": "The most dangerous Mimic isn't disguised as a chest — it's disguised as the door you were trying to escape through.",
-    "he": "",
-    "he_nikud": "הַמִּימִיק הַמְּסֻכָּן מִכֻּלָּם אֵינוֹ מִתְחַפֵּשׂ לְאֶרֶגַּז — הוּא מִתְחַפֵּשׂ לַדֶּלֶת שֶׁדַּרְכָּהּ רָצִיתָ לִבְרֹחַ."
+  "name": {
+    "hebrew": "מִימִיק",
+    "english": "Mimic"
   },
+  "stats": {
+    "habitat": "underground",
+    "size": "medium",
+    "danger": 2
+  },
+  "image": "/images/creatures/mimic.webp",
   "reveals": [
     {
-      "type": "abilities",
-      "title": {
-        "en": "How does it catch you?",
-        "he": "",
-        "he_nikud": "אֵיךְ הוּא לוֹכֵד?"
-      },
-      "content": {
-        "en": "The Mimic's secret is an adhesive material that coats its body at all times. The moment you touch it — your hand is stuck. A sword that strikes it — stuck. Even a friend trying to free your hand — they might get stuck too. Experienced adventurers always knock on objects with a long stick before touching them — because of the Mimic.",
-        "he": "",
-        "he_nikud": "הַסּוֹד שֶׁל הַמִּימִיק הוּא חֹמֶר דַּבְקִי שֶׁמְּצַפֶּה אֶת גּוּפוֹ כָּל הַזְּמַן. בְּרֶגַע שֶׁנּוֹגְעִים בּוֹ — הַיָּד נִתְקַעַת. חֶרֶב שֶׁמַּכָּה בּוֹ — נִתְקַעַת. אֲפִילּוּ חָבֵר שֶׁמְּנַסֶּה לְשַׁחְרֵר אֶת הַיָּד — עָלוּל גַּם הוּא לְהִדָּבֵק. רַפְּתְקָנִים מְנוּסִים תָּמִיד מַקִּישִׁים עַל חֲפָצִים בְּמַקֵּל אָרֹךְ לִפְנֵי שֶׁנּוֹגְעִים — בִּגְלַל הַמִּימִיק."
-      }
+      "type": "abilities"
     },
     {
-      "type": "strange",
-      "title": {
-        "en": "What if the whole room is a Mimic?",
-        "he": "",
-        "he_nikud": "מַה אִם כָּל הַחֶדֶר הוּא מִימִיק?"
-      },
-      "content": {
-        "en": "Some Mimics live in groups — and together they can cover an entire room. The floor — a Mimic. The walls — Mimics. The ceiling, the chests, the door — all Mimics. When an adventurer enters the room, everything comes to life simultaneously. That's why the smart question to ask in every new room is: what here is actually alive?",
-        "he": "",
-        "he_nikud": "יֵשׁ מִימִיקִים שֶׁחַיִּים בִּקְבוּצָה — וְיַחַד הֵם יְכוֹלִים לְכַסּוֹת חֶדֶר שָׁלֵם. הָרִצְפָּה — מִימִיק. הַקִּירוֹת — מִימִיקִים. הַתִּקְרָה, הָאֶרְגָּזִים, הַדֶּלֶת — הַכֹּל מִימִיקִים. כְּשֶׁרַפְּתְקָן נִכְנָס לַחֶדֶר, הַכֹּל מַגִּיחַ לְחַיִּים בּוֹ-זְמָנִית. לָכֵן הַשְּׁאֵלָה הַחֲכָמָה לִשְׁאֹל בְּכָל חֶדֶר חָדָשׁ הִיא: מָה כָּאן בֶּאֱמֶת חַי?"
-      }
+      "type": "strange"
     }
-  ]
+  ],
+  "en": {
+    "description": [
+      "Deep in the dungeon, there's a chest that looks like every other chest — same wood, same iron bands, same lock. But this chest is alive. It waits in silence for whole weeks without moving, until a single hand touches it.",
+      "The moment someone touches it, the Mimic springs to life. From the lid, a huge mouth opens with rows of sharp teeth. The hand sticks to its body with a material so powerful that escape is impossible. The Mimic doesn't chase prey — it picks a good spot, waits, and becomes the trap itself."
+    ],
+    "didYouKnow": "The most dangerous Mimic isn't disguised as a chest — it's disguised as the door you were trying to escape through.",
+    "reveals": [
+      {
+        "title": "How does it catch you?",
+        "content": "The Mimic's secret is an adhesive material that coats its body at all times. The moment you touch it — your hand is stuck. A sword that strikes it — stuck. Even a friend trying to free your hand — they might get stuck too. Experienced adventurers always knock on objects with a long stick before touching them — because of the Mimic."
+      },
+      {
+        "title": "What if the whole room is a Mimic?",
+        "content": "Some Mimics live in groups — and together they can cover an entire room. The floor — a Mimic. The walls — Mimics. The ceiling, the chests, the door — all Mimics. When an adventurer enters the room, everything comes to life simultaneously. That's why the smart question to ask in every new room is: what here is actually alive?"
+      }
+    ]
+  },
+  "he": {
+    "description": [
+      "עמק במעמקי המערה יש ארגז שנראה כמו כל ארגז אחר — אותו עץ, אותם פסי ברזל, אותו מנעול. אבל הארגז הזה חי. הוא ממתין בשקט שבועות שלמים, בלי לזוז, עד שיד אחת תגע בו.",
+      "ברגע שנוגעים בו, המימיק מגיח לחיים. מהמכסה נפתח פה ענק עם שורות של שנים חדות. היד נדבקת לגופו בחמר כל כך חזק שאי אפשר להשתחרר. המימיק לא רודף אחר טרף — הוא בוחר מקום טוב, מחכה, והופך למלכדת עצמה."
+    ],
+    "didYouKnow": "המימיק המסכן מכלם אינו מתחפש לארגז — הוא מתחפש לדלת שדרכה רצית לברח.",
+    "reveals": [
+      {
+        "title": "איך הוא לוכד?",
+        "content": "הסוד של המימיק הוא חמר דבקי שמצפה את גופו כל הזמן. ברגע שנוגעים בו — היד נתקעת. חרב שמכה בו — נתקעת. אפילו חבר שמנסה לשחרר את היד — עלול גם הוא להדבק. רפתקנים מנוסים תמיד מקישים על חפצים במקל ארך לפני שנוגעים — בגלל המימיק."
+      },
+      {
+        "title": "מה אם כל החדר הוא מימיק?",
+        "content": "יש מימיקים שחיים בקבוצה — ויחד הם יכולים לכסות חדר שלם. הרצפה — מימיק. הקירות — מימיקים. התקרה, הארגזים, הדלת — הכל מימיקים. כשרפתקן נכנס לחדר, הכל מגיח לחיים בו-זמנית. לכן השאלה החכמה לשאל בכל חדר חדש היא: מה כאן באמת חי?"
+      }
+    ]
+  },
+  "he_nikud": {
+    "description": [
+      "עָמֹק בְּמַעֲמַקֵּי הַמְּעָרָה יֵשׁ אֶרֶגַּז שֶׁנִּרְאֶה כְּמוֹ כָּל אֶרֶגַּז אַחֵר — אוֹתוֹ עֵץ, אוֹתָם פַּסֵּי בַּרְזֶל, אוֹתוֹ מַנְעוּל. אֲבָל הָאֶרֶגַּז הַזֶּה חַי. הוּא מַמְתִּין בְּשֶׁקֶט שָׁבוּעוֹת שְׁלֵמִים, בְּלִי לָזוּז, עַד שֶׁיָּד אַחַת תִּגַּע בּוֹ.",
+      "בְּרֶגַע שֶׁנּוֹגְעִים בּוֹ, הַמִּימִיק מַגִּיחַ לְחַיִּים. מֵהַמַּכְסָה נִפְתָּח פֶּה עָנָק עִם שׁוּרוֹת שֶׁל שִׁנַּיִם חַדּוֹת. הַיָּד נִדְבֶּקֶת לְגוּפוֹ בְּחֹמֶר כָּל כָּךְ חָזָק שֶׁאִי אֶפְשָׁר לְהַשְׁתַּחְרֵר. הַמִּימִיק לֹא רוֹדֵף אַחַר טֶרֶף — הוּא בּוֹחֵר מָקוֹם טוֹב, מְחַכֶּה, וְהוֹפֵךְ לַמְּלֶכֶדֶת עַצְמָהּ."
+    ],
+    "didYouKnow": "הַמִּימִיק הַמְּסֻכָּן מִכֻּלָּם אֵינוֹ מִתְחַפֵּשׂ לְאֶרֶגַּז — הוּא מִתְחַפֵּשׂ לַדֶּלֶת שֶׁדַּרְכָּהּ רָצִיתָ לִבְרֹחַ.",
+    "reveals": [
+      {
+        "title": "אֵיךְ הוּא לוֹכֵד?",
+        "content": "הַסּוֹד שֶׁל הַמִּימִיק הוּא חֹמֶר דַּבְקִי שֶׁמְּצַפֶּה אֶת גּוּפוֹ כָּל הַזְּמַן. בְּרֶגַע שֶׁנּוֹגְעִים בּוֹ — הַיָּד נִתְקַעַת. חֶרֶב שֶׁמַּכָּה בּוֹ — נִתְקַעַת. אֲפִילּוּ חָבֵר שֶׁמְּנַסֶּה לְשַׁחְרֵר אֶת הַיָּד — עָלוּל גַּם הוּא לְהִדָּבֵק. רַפְּתְקָנִים מְנוּסִים תָּמִיד מַקִּישִׁים עַל חֲפָצִים בְּמַקֵּל אָרֹךְ לִפְנֵי שֶׁנּוֹגְעִים — בִּגְלַל הַמִּימִיק."
+      },
+      {
+        "title": "מַה אִם כָּל הַחֶדֶר הוּא מִימִיק?",
+        "content": "יֵשׁ מִימִיקִים שֶׁחַיִּים בִּקְבוּצָה — וְיַחַד הֵם יְכוֹלִים לְכַסּוֹת חֶדֶר שָׁלֵם. הָרִצְפָּה — מִימִיק. הַקִּירוֹת — מִימִיקִים. הַתִּקְרָה, הָאֶרְגָּזִים, הַדֶּלֶת — הַכֹּל מִימִיקִים. כְּשֶׁרַפְּתְקָן נִכְנָס לַחֶדֶר, הַכֹּל מַגִּיחַ לְחַיִּים בּוֹ-זְמָנִית. לָכֵן הַשְּׁאֵלָה הַחֲכָמָה לִשְׁאֹל בְּכָל חֶדֶר חָדָשׁ הִיא: מָה כָּאן בֶּאֱמֶת חַי?"
+      }
+    ]
+  }
 }

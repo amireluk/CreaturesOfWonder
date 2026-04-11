@@ -1,64 +1,87 @@
 {
   "id": "troll",
-  "name": { "hebrew": "טְרוֹל", "english": "Troll" },
-  "stats": { "habitat": "swamp", "size": "large", "danger": 3 },
-  "image": "/images/creatures/troll.webp",
-  "description": [
-    {
-      "en": "Trolls are tall green creatures that prowl through swamps and dark caves, always hunting for food. They stand nearly three meters tall, with long arms that drag near the ground and sharp claws at the tip of every finger.",
-      "he": "",
-      "he_nikud": "טְרוֹלִים הֵם יְצוּרִים יְרֻקִּים וּגְבוֹהִים שֶׁמִּסְתּוֹבְבִים בִּבְצוֹת וּבִמְעָרוֹת חֲשׁוּכוֹת, תָּמִיד מְחַפְּשִׂים מָה לֶאֱכֹל. הֵם גְּבוֹהִים כִּמְעַט שְׁלוֹשָׁה מֶטְרִים, עִם יָדַיִם אֲרֻכּוֹת שֶׁנִּגְרָרוֹת עַל הָרִצְפָּה וְטִפְרִים חַדִּים בְּקָצֵה כָּל אֶצְבַּע."
-    },
-    {
-      "en": "Despite their gangly appearance, trolls are surprisingly fast and powerful. The scariest thing about a troll is that they are nearly impossible to kill — every wound seals within seconds and their body keeps regenerating.",
-      "he": "",
-      "he_nikud": "לְמַרוֹת שֶׁהֵם נִרְאִים רָזִים וּמְסֻרְבָּלִים, טְרוֹלִים מַפְתִּיעִים בַּמְּהִירוּת וּבַכֹּחַ שֶׁלָּהֶם. הַדָּבָר הֲכִי מַפְחִיד בְּטְרוֹל הוּא שֶׁכִּמְעַט אִי אֶפְשָׁר לַהֲרֹג אוֹתוֹ — כָּל פֶּצַע נִסְגָּר תּוֹךְ שְׁנִיּוֹת וְהַגּוּף שֶׁלּוֹ מִתְחַדֵּשׁ כָּל הַזְּמַן."
-    }
-  ],
-  "didYouKnow": {
-    "en": "Cut off a troll's hand and the hand keeps moving on its own! Meanwhile the troll is already growing a new one.",
-    "he": "",
-    "he_nikud": "אִם חוֹתְכִים לַטְּרוֹל אֶת הַיָּד, הַיָּד מַמְשִׁיכָה לָזוּז לְבַד! וּבֵינְתַיִם, לְטְרוֹל כְּבָר צוֹמַחַת יָד חֲדָשָׁה."
+  "name": {
+    "hebrew": "טְרוֹל",
+    "english": "Troll"
   },
+  "stats": {
+    "habitat": "swamp",
+    "size": "large",
+    "danger": 3
+  },
+  "image": "/images/creatures/troll.webp",
   "reveals": [
     {
-      "type": "diet",
-      "title": {
-        "en": "What do they eat?",
-        "he": "",
-        "he_nikud": "מָה הֵם אוֹכְלִים?"
-      },
-      "content": {
-        "en": "Trolls eat everything. Literally everything. Meat, bones, hide, and sometimes things no other creature would touch. They're always hungry because their body burns energy constantly to keep regenerating. A troll that can't find food will eat other trolls.",
-        "he": "",
-        "he_nikud": "טְרוֹלִים אוֹכְלִים הַכֹּל. מַמָּשׁ הַכֹּל. בָּשָׂר, עֲצָמוֹת, עוֹר, וְלִפְעָמִים גַּם דְּבָרִים שֶׁאַף יְצוּר אַחֵר לֹא הָיָה מוּכָן לָגַעַת בָּהֶם. הֵם רְעֵבִים כָּל הַזְּמַן כִּי הַגּוּף שֶׁלָּהֶם צָרִיךְ אֶנֶרְגְיָה בִּשְׁבִיל לְהִתְחַדֵּשׁ. טְרוֹל שֶׁלֹּא מוֹצֵא אֹכֶל יֹאכַל אֲפִילּוּ טְרוֹלִים אֲחֵרִים."
-      }
+      "type": "diet"
     },
     {
-      "type": "weaknesses",
-      "title": {
-        "en": "Weak spots",
-        "he": "",
-        "he_nikud": "נְקֻדּוֹת תּוֹרְפָּה"
-      },
-      "content": {
-        "en": "There are only two things a troll truly fears: fire and acid. These are the only things that stop its regeneration. Without fire or acid, a troll will just keep healing and stand back up again and again. That's why smart adventurers always carry a torch when heading out.",
-        "he": "",
-        "he_nikud": "יֵשׁ רַק שְׁנֵי דְּבָרִים שֶׁטְּרוֹל בֶּאֱמֶת מְפַחֵד מֵהֶם: אֵשׁ וְחוּמְצָה. אֵלֶּה הַדְּבָרִים הַיְּחִידִים שֶׁעוֹצְרִים אֶת הַהִתְחַדְּשׁוּת שֶׁלּוֹ. בְּלִי אֵשׁ אוֹ חוּמְצָה, הַטְּרוֹל פָּשׁוּט יַמְשִׁיךְ לְהִתְרַפֵּא וְלָקוּם שׁוּב וָשׁוּב. לָכֵן הָרַפְּתְקָנִים הַחֲכָמִים תָּמִיד לוֹקְחִים לַפִּיד כְּשֶׁהֵם יוֹצְאִים לַדֶּרֶךְ."
-      }
+      "type": "weaknesses"
     },
     {
-      "type": "origin",
-      "title": {
-        "en": "Where did the story come from?",
-        "he": "",
-        "he_nikud": "מֵאַיִן הַסִּיפּוּר הִגִּיעַ?"
-      },
-      "content": {
-        "en": "Trolls appear in ancient Scandinavian stories, where they were giants living in mountains and caves that turned to stone in sunlight. The D&D troll is completely different — it came from a 1961 fantasy novel called 'Three Hearts and Three Lions', where the troll was green, regenerating, and afraid of fire. That's where the idea entered D&D.",
-        "he": "",
-        "he_nikud": "טְרוֹלִים מוֹפִיעִים בְּסִיפּוּרִים סְקַנְדִינָבִיִּים עַתִּיקִים, שָׁם הֵם הָיוּ עֲנָקִים שֶׁגָּרוּ בֶּהָרִים וּבִמְעָרוֹת וְהָפְכוּ לְאֶבֶן בְּאוֹר הַשֶּׁמֶשׁ. הַטְּרוֹל שֶׁל D&D שׁוֹנֶה לְגַמְרֵי — הוּא הִגִּיעַ מִסֵּפֶר פַּנְטָזְיָה מִשְּׁנַת 1961 בְּשֵׁם \"שְׁלוֹשָׁה לְבָבוֹת וּשְׁלוֹשָׁה אֲרָיוֹת\", שָׁם הַטְּרוֹל הָיָה יָרֹק, מִתְחַדֵּשׁ, וּפָחַד מֵאֵשׁ. מִשָּׁם הִגִּיעַ הָרַעְיוֹן לְ-D&D."
-      }
+      "type": "origin"
     }
-  ]
+  ],
+  "en": {
+    "description": [
+      "Trolls are tall green creatures that prowl through swamps and dark caves, always hunting for food. They stand nearly three meters tall, with long arms that drag near the ground and sharp claws at the tip of every finger.",
+      "Despite their gangly appearance, trolls are surprisingly fast and powerful. The scariest thing about a troll is that they are nearly impossible to kill — every wound seals within seconds and their body keeps regenerating."
+    ],
+    "didYouKnow": "Cut off a troll's hand and the hand keeps moving on its own! Meanwhile the troll is already growing a new one.",
+    "reveals": [
+      {
+        "title": "What do they eat?",
+        "content": "Trolls eat everything. Literally everything. Meat, bones, hide, and sometimes things no other creature would touch. They're always hungry because their body burns energy constantly to keep regenerating. A troll that can't find food will eat other trolls."
+      },
+      {
+        "title": "Weak spots",
+        "content": "There are only two things a troll truly fears: fire and acid. These are the only things that stop its regeneration. Without fire or acid, a troll will just keep healing and stand back up again and again. That's why smart adventurers always carry a torch when heading out."
+      },
+      {
+        "title": "Where did the story come from?",
+        "content": "Trolls appear in ancient Scandinavian stories, where they were giants living in mountains and caves that turned to stone in sunlight. The D&D troll is completely different — it came from a 1961 fantasy novel called 'Three Hearts and Three Lions', where the troll was green, regenerating, and afraid of fire. That's where the idea entered D&D."
+      }
+    ]
+  },
+  "he": {
+    "description": [
+      "טרולים הם יצורים ירקים וגבוהים שמסתובבים בבצות ובמערות חשוכות, תמיד מחפשים מה לאכל. הם גבוהים כמעט שלושה מטרים, עם ידים ארכות שנגררות על הרצפה וטפרים חדים בקצה כל אצבע.",
+      "למרות שהם נראים רזים ומסרבלים, טרולים מפתיעים במהירות ובכח שלהם. הדבר הכי מפחיד בטרול הוא שכמעט אי אפשר להרג אותו — כל פצע נסגר תוך שניות והגוף שלו מתחדש כל הזמן."
+    ],
+    "didYouKnow": "אם חותכים לטרול את היד, היד ממשיכה לזוז לבד! ובינתים, לטרול כבר צומחת יד חדשה.",
+    "reveals": [
+      {
+        "title": "מה הם אוכלים?",
+        "content": "טרולים אוכלים הכל. ממש הכל. בשר, עצמות, עור, ולפעמים גם דברים שאף יצור אחר לא היה מוכן לגעת בהם. הם רעבים כל הזמן כי הגוף שלהם צריך אנרגיה בשביל להתחדש. טרול שלא מוצא אכל יאכל אפילו טרולים אחרים."
+      },
+      {
+        "title": "נקדות תורפה",
+        "content": "יש רק שני דברים שטרול באמת מפחד מהם: אש וחומצה. אלה הדברים היחידים שעוצרים את ההתחדשות שלו. בלי אש או חומצה, הטרול פשוט ימשיך להתרפא ולקום שוב ושוב. לכן הרפתקנים החכמים תמיד לוקחים לפיד כשהם יוצאים לדרך."
+      },
+      {
+        "title": "מאין הסיפור הגיע?",
+        "content": "טרולים מופיעים בסיפורים סקנדינביים עתיקים, שם הם היו ענקים שגרו בהרים ובמערות והפכו לאבן באור השמש. הטרול של D&D שונה לגמרי — הוא הגיע מספר פנטזיה משנת 1961 בשם \"שלושה לבבות ושלושה אריות\", שם הטרול היה ירק, מתחדש, ופחד מאש. משם הגיע הרעיון ל-D&D."
+      }
+    ]
+  },
+  "he_nikud": {
+    "description": [
+      "טְרוֹלִים הֵם יְצוּרִים יְרֻקִּים וּגְבוֹהִים שֶׁמִּסְתּוֹבְבִים בִּבְצוֹת וּבִמְעָרוֹת חֲשׁוּכוֹת, תָּמִיד מְחַפְּשִׂים מָה לֶאֱכֹל. הֵם גְּבוֹהִים כִּמְעַט שְׁלוֹשָׁה מֶטְרִים, עִם יָדַיִם אֲרֻכּוֹת שֶׁנִּגְרָרוֹת עַל הָרִצְפָּה וְטִפְרִים חַדִּים בְּקָצֵה כָּל אֶצְבַּע.",
+      "לְמַרוֹת שֶׁהֵם נִרְאִים רָזִים וּמְסֻרְבָּלִים, טְרוֹלִים מַפְתִּיעִים בַּמְּהִירוּת וּבַכֹּחַ שֶׁלָּהֶם. הַדָּבָר הֲכִי מַפְחִיד בְּטְרוֹל הוּא שֶׁכִּמְעַט אִי אֶפְשָׁר לַהֲרֹג אוֹתוֹ — כָּל פֶּצַע נִסְגָּר תּוֹךְ שְׁנִיּוֹת וְהַגּוּף שֶׁלּוֹ מִתְחַדֵּשׁ כָּל הַזְּמַן."
+    ],
+    "didYouKnow": "אִם חוֹתְכִים לַטְּרוֹל אֶת הַיָּד, הַיָּד מַמְשִׁיכָה לָזוּז לְבַד! וּבֵינְתַיִם, לְטְרוֹל כְּבָר צוֹמַחַת יָד חֲדָשָׁה.",
+    "reveals": [
+      {
+        "title": "מָה הֵם אוֹכְלִים?",
+        "content": "טְרוֹלִים אוֹכְלִים הַכֹּל. מַמָּשׁ הַכֹּל. בָּשָׂר, עֲצָמוֹת, עוֹר, וְלִפְעָמִים גַּם דְּבָרִים שֶׁאַף יְצוּר אַחֵר לֹא הָיָה מוּכָן לָגַעַת בָּהֶם. הֵם רְעֵבִים כָּל הַזְּמַן כִּי הַגּוּף שֶׁלָּהֶם צָרִיךְ אֶנֶרְגְיָה בִּשְׁבִיל לְהִתְחַדֵּשׁ. טְרוֹל שֶׁלֹּא מוֹצֵא אֹכֶל יֹאכַל אֲפִילּוּ טְרוֹלִים אֲחֵרִים."
+      },
+      {
+        "title": "נְקֻדּוֹת תּוֹרְפָּה",
+        "content": "יֵשׁ רַק שְׁנֵי דְּבָרִים שֶׁטְּרוֹל בֶּאֱמֶת מְפַחֵד מֵהֶם: אֵשׁ וְחוּמְצָה. אֵלֶּה הַדְּבָרִים הַיְּחִידִים שֶׁעוֹצְרִים אֶת הַהִתְחַדְּשׁוּת שֶׁלּוֹ. בְּלִי אֵשׁ אוֹ חוּמְצָה, הַטְּרוֹל פָּשׁוּט יַמְשִׁיךְ לְהִתְרַפֵּא וְלָקוּם שׁוּב וָשׁוּב. לָכֵן הָרַפְּתְקָנִים הַחֲכָמִים תָּמִיד לוֹקְחִים לַפִּיד כְּשֶׁהֵם יוֹצְאִים לַדֶּרֶךְ."
+      },
+      {
+        "title": "מֵאַיִן הַסִּיפּוּר הִגִּיעַ?",
+        "content": "טְרוֹלִים מוֹפִיעִים בְּסִיפּוּרִים סְקַנְדִינָבִיִּים עַתִּיקִים, שָׁם הֵם הָיוּ עֲנָקִים שֶׁגָּרוּ בֶּהָרִים וּבִמְעָרוֹת וְהָפְכוּ לְאֶבֶן בְּאוֹר הַשֶּׁמֶשׁ. הַטְּרוֹל שֶׁל D&D שׁוֹנֶה לְגַמְרֵי — הוּא הִגִּיעַ מִסֵּפֶר פַּנְטָזְיָה מִשְּׁנַת 1961 בְּשֵׁם \"שְׁלוֹשָׁה לְבָבוֹת וּשְׁלוֹשָׁה אֲרָיוֹת\", שָׁם הַטְּרוֹל הָיָה יָרֹק, מִתְחַדֵּשׁ, וּפָחַד מֵאֵשׁ. מִשָּׁם הִגִּיעַ הָרַעְיוֹן לְ-D&D."
+      }
+    ]
+  }
 }
