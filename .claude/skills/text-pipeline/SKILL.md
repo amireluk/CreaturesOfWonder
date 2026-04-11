@@ -47,17 +47,33 @@ Write the updated JSON back to `content/$ARGUMENTS.json`.
 
 ## Step 2b — Hebrew verification pass
 
-Read back ONLY the `he_nikud` block you just wrote — ignore the English entirely for this step.
+This is a two-pass review. Do both passes and fix all issues found before continuing.
 
-Review it as a native Hebrew reader would, checking:
-- **Naturalness**: does it read like something a Hebrew speaker would actually say, or does it sound translated?
-- **Reading level**: is every word and sentence accessible to a 7-9 year old? Flag anything too complex.
-- **Grammar**: agreement (gender/number), correct binyan, proper use of definite article
-- **Nikud accuracy**: vowel points match the word as it would be pronounced. Common errors to check: shva vs hataf, holam male vs haser, dagesh in begadkefat after open syllable
-- **Tone**: field guide, present-tense, creature is real. No "in D&D", no "in mythology" outside of origin reveals.
-- **Flow**: do the paragraphs read smoothly aloud? Any sentence that feels clunky or too long?
+### Pass 1 — Hebrew-only (close the English, read as a native speaker)
 
-Fix any issues found directly in the JSON before moving to Step 3. If you fix something in `he_nikud`, strip the nikud and update `he` to match.
+Read ONLY `he_nikud`. Do not look at the English for this pass. Ask yourself: if someone handed you this text with no context, would it read naturally?
+
+Check for:
+- **Grammar errors**: gender/number agreement, correct verb binyan, definite article (ה) after prepositions (בַּ/לַ/מֵהַ etc.), construct state (סְמִיכוּת)
+- **Unnatural phrasing**: sentences that are grammatically correct but no Hebrew speaker would say that way — often a sign of literal translation. Rewrite these in natural Hebrew.
+- **Reading level**: flag any word a 7-9 year old is unlikely to know. Either simplify or verify the context makes it clear.
+- **Nikud accuracy**: shva vs hataf, dagesh in begadkefat letters after closed syllables, holam male vs haser, correct vowel pattern for the binyan
+- **Flow**: read each paragraph aloud mentally. If a sentence trips you up, rewrite it.
+
+### Pass 2 — Cross-reference with English (check contextual word choice)
+
+Now look at the English source alongside `he_nikud`, sentence by sentence.
+
+For every non-trivial word or phrase, ask: **is this the right Hebrew word for what the English means in this specific sentence, or just a valid dictionary translation?**
+
+Common failure mode: a word that translates the English correctly in isolation but carries the wrong connotation, register, or image in context. Examples:
+- A word meaning "explosion" that actually means "cracking open" in Hebrew
+- A formal word used where the English is casual
+- A word that's technically correct but unusual — a more common synonym would serve the reader better
+
+If a word is wrong in context, replace it — even if the grammar is fine. Restructuring the sentence is acceptable if it produces more natural Hebrew.
+
+Fix all issues in both `he_nikud` and `he` before moving on.
 
 ## Step 3 — Regenerate the .ts file
 
