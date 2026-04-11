@@ -20,52 +20,52 @@
   ],
   "en": {
     "description": [
-      "The Hydra is an enormous creature that lives in swamps and rivers — a massive reptilian body with five heads on long independent necks, each head as large as a wolf. The heads move independently and can attack five different targets at the same moment.",
-      "But what's more frightening than its size is what happens when you cut off one of its heads: instead of one head, two grow back. Every sword blow you land only makes it bigger."
+      "The Hydra is a massive reptilian creature that lurks in swamps and murky lakes — a body the size of a barn with five heads on long independent necks, each head as large as a wolf. Each neck moves on its own, and all five heads can strike at the same moment in different directions.",
+      "What makes the Hydra unlike any other predator is what happens when you cut off a head: two grow back in its place. A Hydra that has been attacked by an inexperienced warrior walks away with more heads than it started with."
     ],
-    "didYouKnow": "When the Hydra sleeps, one head always stays awake and on guard. You cannot sneak up on a sleeping Hydra.",
+    "didYouKnow": "When a Hydra sleeps, one head always stays awake to keep watch. There is no such thing as a sleeping Hydra.",
     "reveals": [
       {
-        "title": "How do you defeat it?",
-        "content": "Heracles, the Greek hero, discovered the secret: after every cut — you must immediately burn the stump with fire, and then the head cannot grow back. This is the exact opposite of the troll — for the troll, fire stops regeneration entirely, but for the Hydra, fire only stops the heads from regrowing. Without fire — every sword swing only makes it bigger."
+        "title": "Why most warriors lose",
+        "content": "The Hydra's most dangerous quality isn't its size or its heads — it's that the obvious thing to do makes everything worse. Every fighter's first instinct is to cut. But without fire, cutting just multiplies the problem. The only way to stop a head from regrowing is to burn the stump immediately after the cut, before the wound closes. Most warriors figure this out too late, after the Hydra already has eight heads instead of five."
       },
       {
-        "title": "Where did the story come from?",
-        "content": "Two thousand five hundred years ago, the Greeks told stories of Heracles being sent to kill the Hydra in the swamps of Lerna. For every head he cut, two grew back — until his nephew Iolaus thought of the solution with fire. The story was so famous that D&D simply took it straight from Greek mythology — heads, regrowth, and the fire solution included."
+        "title": "What did Disney get right?",
+        "content": "In the Disney movie Hercules, the hero buries the Hydra under a mountain of falling rocks — and that ending is straight from the original Greek myth, two and a half thousand years old. The real story has one immortal head that can't be killed at all, only buried. Disney also kept the fire solution and the multiplying heads. What Disney invented was the instant dramatic explosion of new heads — in the original myth it happens slowly, one stump at a time, which is actually more terrifying."
       }
     ]
   },
   "he": {
     "description": [
-      "ההידרה היא חיה ענקית שחיה בבצות וביאורות — גוף של זוחל עצום עם חמש ראשים על צוארים ארכים, כל אחד גדול כמו זאב. הראשים נעים בנפרד ויודעים לתקף חמש אנשים שונים באותו רגע.",
-      "אבל מה שמפחיד יותר מגדלה הוא מה שקורה כשחותכים לה ראש: במקום הראש האחד צומחים שנים. כל פצע שמנחיתים עליה בחרב רק מגדיל אותה."
+      "ההידרה היא יצור זוחל עצום שאורב בבצות ובאגמים עכורים — גוף בגודל אסם עם חמש ראשים על צוארים ארכים ועצמאיים, כל ראש גדול כמו זאב. כל צואר זז בנפרד, וכל חמשת הראשים יכולים לתקף באותו רגע לכיוונים שונים.",
+      "מה שמבדיל את ההידרה מכל טורף אחר הוא מה שקורה כשחותכים לה ראש: במקומו צומחים שנים. הידרה שנלחמו בה לוחם חסר נסיון — הולכת משם עם יותר ראשים ממה שהיו לה בהתחלה."
     ],
-    "didYouKnow": "כשההידרה ישנה, ראש אחד תמיד נשאר ער ושומר. אי אפשר להפתיע הידרה ישנה.",
+    "didYouKnow": "כשההידרה ישנה, ראש אחד תמיד נשאר ער ושומר. אין דבר כזה כמו הידרה ישנה.",
     "reveals": [
       {
-        "title": "איך מנצחים אותה?",
-        "content": "הרקלס, הגבור היווני, גלה את הסוד: אחרי כל חתוך — צריכים מיד לשרף את הגדם באש, ואז הראש לא יכול לצמח חזרה. זה בדיוק הפך הטרול — לטרול אש עוצרת את ההתחדשות, אבל להידרה אש עוצרת רק את צמיחת הראשים. בלי אש — כל מכה בחרב רק מגדלת אותה."
+        "title": "למה רוב הלוחמים מפסידים",
+        "content": "הדבר הכי מסוכן בהידרה אינו גדלה ולא ראשיה — אלא שהדבר ההגיוני לעשות רק מחמיר את המצב. האינסטינקט הראשון של כל לוחם הוא לחתך. אבל בלי אש, חיתוך רק מכפיל את הבעיה. הדרך היחידה למנע מראש לצמח בחזרה היא לשרף את הגדם מיד אחרי החיתוך, לפני שהפצע נסגר. רוב הלוחמים מבינים את זה מאוחר מדי — אחרי שלהידרה כבר יש שמונה ראשים במקום חמש."
       },
       {
-        "title": "מאין הסיפור הגיע?",
-        "content": "לפני אלפים וחמש מאות שנה, היוונים ספרו על הרקלס שנשלח להרג את ההידרה בבצת לרנה. לכל ראש שחתך צמחו שנים, עד שאחינו איולאוס חשב על הפתרון עם האש. הסיפור הזה היה כל כך מפרסם שה-D&D פשוט לקח אותו מהמיתולוגיה היוונית כמו שהוא — כולל הראשים, הצמיחה, והפתרון באש."
+        "title": "מה דיסני הבין נכון?",
+        "content": "בסרט הדיסני הרקולס, הגבור קובר את ההידרה תחת הר של סלעים — והסיום הזה לקוח ישיר מהמיתוס היווני המקורי, בן אלפים וחמש מאות שנה. בסיפור האמיתי יש ראש אחד שאי אפשר להרג כלל — רק לקבור. דיסני גם שמר על פתרון האש ועל הראשים המתרבים. מה שדיסני המציא היתה הפציחה הדרמטית והמיידית של ראשים חדשים — במיתוס המקורי זה קורה לאט, גדם אחר גדם, וזה באמת יותר מפחיד."
       }
     ]
   },
   "he_nikud": {
     "description": [
-      "הַהִידְרָה הִיא חַיָּה עֲנָקִית שֶׁחַיָּה בִּבְצוֹת וּבְיַאוֹרוֹת — גּוּף שֶׁל זוֹחֵל עָצוּם עִם חָמֵשׁ רָאשִׁים עַל צַוָּארִים אֲרֻכִּים, כָּל אֶחָד גְּדוֹל כְּמוֹ זְאֵב. הָרָאשִׁים נָעִים בְּנִפְרָד וְיוֹדְעִים לִתְקֹּף חָמֵשׁ אֲנָשִׁים שׁוֹנִים בְּאוֹתוֹ רֶגַע.",
-      "אֲבָל מַה שֶּׁמַּפְחִיד יוֹתֵר מִגֹּדְלָהּ הוּא מַה שֶּׁקּוֹרֶה כְּשֶׁחוֹתְכִים לָהּ רֹאשׁ: בְּמָקוֹם הָרֹאשׁ הָאֶחָד צוֹמְחִים שְׁנַיִם. כָּל פֶּצַע שֶׁמַּנְחִיתִים עָלֶיהָ בְּחֶרֶב רַק מַגְדִּיל אוֹתָהּ."
+      "הַהִידְרָה הִיא יְצוּר זוֹחֵל עָצוּם שֶׁאוֹרֵב בִּבְצוֹת וּבְאַגַּמִּים עֲכוּרִים — גּוּף בְּגֹדֶל אָסָם עִם חָמֵשׁ רָאשִׁים עַל צַוָּארִים אֲרֻכִּים וְעַצְמָאִיִּים, כָּל רֹאשׁ גָּדוֹל כְּמוֹ זְאֵב. כָּל צַוָּאר זָז בְּנִפְרָד, וְכָל חֲמֵשֶׁת הָרָאשִׁים יְכוֹלִים לִתְקֹּף בְּאוֹתוֹ רֶגַע לְכִיווּנִים שׁוֹנִים.",
+      "מַה שֶּׁמַּבְדִּיל אֶת הַהִידְרָה מִכָּל טוֹרֵף אַחֵר הוּא מַה שֶּׁקּוֹרֶה כְּשֶׁחוֹתְכִים לָהּ רֹאשׁ: בִּמְקוֹמוֹ צוֹמְחִים שְׁנַיִם. הִידְרָה שֶׁנֶּלְחֲמוּ בָּהּ לוֹחֵם חֲסַר נִסָּיוֹן — הוֹלֶכֶת מִשָּׁם עִם יוֹתֵר רָאשִׁים מִמַּה שֶּׁהָיוּ לָהּ בַּהַתְחָלָה."
     ],
-    "didYouKnow": "כְּשֶׁהַהִידְרָה יְשֵׁנָה, רֹאשׁ אֶחָד תָּמִיד נִשְׁאָר עֵר וְשׁוֹמֵר. אִי אֶפְשָׁר לְהַפְתִּיעַ הִידְרָה יְשֵׁנָה.",
+    "didYouKnow": "כְּשֶׁהַהִידְרָה יְשֵׁנָה, רֹאשׁ אֶחָד תָּמִיד נִשְׁאָר עֵר וְשׁוֹמֵר. אֵין דָּבָר כָּזֶה כְּמוֹ הִידְרָה יְשֵׁנָה.",
     "reveals": [
       {
-        "title": "אֵיךְ מְנַצְּחִים אוֹתָהּ?",
-        "content": "הֶרָקְלֶס, הַגִּבּוֹר הַיְּווָנִי, גִּלָּה אֶת הַסּוֹד: אַחֲרֵי כָּל חִתּוּךְ — צְרִיכִים מִיַּד לִשְׂרֹף אֶת הַגֶּדֶם בָּאֵשׁ, וְאָז הָרֹאשׁ לֹא יָכוֹל לִצְמֹחַ חָזָרָה. זֶה בְּדִיּוּק הֵפֶּךְ הַטְּרוֹל — לַטְּרוֹל אֵשׁ עוֹצֶרֶת אֶת הַהִתְחַדְּשׁוּת, אֲבָל לַהִידְרָה אֵשׁ עוֹצֶרֶת רַק אֶת צְמִיחַת הָרָאשִׁים. בְּלִי אֵשׁ — כָּל מָכָּה בְּחֶרֶב רַק מְגַדֶּלֶת אוֹתָהּ."
+        "title": "לָמָּה רוֹב הַלּוֹחֲמִים מַפְסִידִים",
+        "content": "הַדָּבָר הֲכִי מְסֻכָּן בַּהִידְרָה אֵינוֹ גֹּדְלָהּ וְלֹא רָאשֶׁיהָ — אֶלָּא שֶׁהַדָּבָר הַהֲגִיוֹנִי לַעֲשׂוֹת רַק מַחְמִיר אֶת הַמַּצָּב. הָאִינְסְטִינְקְט הָרִאשׁוֹן שֶׁל כָּל לוֹחֵם הוּא לַחְתֹּךְ. אֲבָל בְּלִי אֵשׁ, חִתּוּךְ רַק מַכְפִּיל אֶת הַבְּעָיָה. הַדֶּרֶךְ הַיְּחִידָה לְמַנֵּעַ מֵרֹאשׁ לִצְמֹחַ בַּחֲזָרָה הִיא לִשְׂרֹף אֶת הַגֶּדֶם מִיַּד אַחֲרֵי הַחִתּוּךְ, לִפְנֵי שֶׁהַפֶּצַע נִסְגָּר. רוֹב הַלּוֹחֲמִים מְבִינִים אֶת זֶה מְאֻחָר מִדַּי — אַחֲרֵי שֶׁלַּהִידְרָה כְּבָר יֵשׁ שְׁמוֹנֶה רָאשִׁים בִּמְקוֹם חָמֵשׁ."
       },
       {
-        "title": "מֵאַיִן הַסִּיפּוּר הִגִּיעַ?",
-        "content": "לִפְנֵי אַלְפַּיִם וַחֲמֵשׁ מֵאוֹת שָׁנָה, הַיְּווָנִים סִפְּרוּ עַל הֶרָקְלֶס שֶׁנִּשְׁלַח לַהֲרֹג אֶת הַהִידְרָה בְּבִצַּת לֶרְנֶה. לְכָל רֹאשׁ שֶׁחָתַךְ צָמְחוּ שְׁנַיִם, עַד שֶׁאָחְיָנוֹ אִיּוֹלָאוּס חָשַׁב עַל הַפִּתְרוֹן עִם הָאֵשׁ. הַסִּיפּוּר הַזֶּה הָיָה כָּל כָּךְ מְפֻרְסָם שֶׁה-D&D פָּשׁוּט לָקַח אוֹתוֹ מֵהַמִּיתוֹלוֹגְיָה הַיְּווָנִית כְּמוֹ שֶׁהוּא — כּוּלֵּל הָרָאשִׁים, הַצְּמִיחָה, וְהַפִּתְרוֹן בָּאֵשׁ."
+        "title": "מַה דִּיסְנֵי הֵבִין נָכוֹן?",
+        "content": "בְּסֶרֶט הַדִּיסְנֵי הֶרְקוּלֶס, הַגִּבּוֹר קוֹבֵר אֶת הַהִידְרָה תַּחַת הַר שֶׁל סְלָעִים — וְהַסִּיּוּם הַזֶּה לָקוּחַ יָשִׁיר מֵהַמִּיתוֹס הַיְּווָנִי הַמְּקוֹרִי, בֶּן אַלְפַּיִם וַחֲמֵשׁ מֵאוֹת שָׁנָה. בַּסִּיפּוּר הָאֲמִתִּי יֵשׁ רֹאשׁ אֶחָד שֶׁאִי אֶפְשָׁר לַהֲרֹג כְּלָל — רַק לִקְבֹּר. דִּיסְנֵי גַּם שָׁמַר עַל פִּתְרוֹן הָאֵשׁ וְעַל הָרָאשִׁים הַמִּתְרַבִּים. מַה שֶּׁדִּיסְנֵי הִמְצִיא הָיְתָה הַפְּצִיחָה הַדְּרָמָטִית וְהַמִּיָּדִית שֶׁל רָאשִׁים חֲדָשִׁים — בַּמִּיתוֹס הַמְּקוֹרִי זֶה קוֹרֶה לְאַט, גֶּדֶם אַחַר גֶּדֶם, וְזֶה בֶּאֱמֶת יוֹתֵר מְפַחִיד."
       }
     ]
   }
