@@ -6,3 +6,4 @@ out/
 public/images/references/
 public/images/originals/
 .claude/
+!.claude/skills/
