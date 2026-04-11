@@ -1,0 +1,51 @@
+{
+  "id": "owlbear",
+  "name": { "hebrew": "יַנְשׁוּדוֹב", "english": "Owlbear" },
+  "stats": { "habitat": "forest", "size": "large", "danger": 3 },
+  "image": "/images/creatures/owlbear.webp",
+  "description": [
+    {
+      "en": "The Owlbear is one of the most dangerous creatures in the forest — a bear's body with the head of a giant owl, standing nearly two and a half meters tall and as heavy as a car. The sharp talons at the tip of every claw can tear through thick wood like paper.",
+      "he": "",
+      "he_nikud": "יַנְשׁוּדוֹב הוּא אֶחָד מִיְּצוּרֵי הַיַּעַר הֲכִי מְסֻכָּנִים שֶׁיֵּשׁ — גּוּף שֶׁל דֹּב עִם רֹאשׁ שֶׁל יַנְשׁוּף עָנָק, גָּבוֹהַּ כִּשְׁנֵי מֶטְרִים וָחֵצִי וְכָבֵד כְּמוֹ מְכוֹנִית. הַטֹּפֶר הַחַד בְּקָצֵה כָּל אֶצְבַּע יָכוֹל לִקְרֹעַ עֵץ עָבֶה כְּמוֹ שֶׁאַתָּה קוֹרֵעַ נְיָר."
+    },
+    {
+      "en": "The Owlbear is most active at dusk and night, when its enormous eyes can see everything in total darkness. If you hear a sound in the forest that is half-roar and half-owl screech — be careful.",
+      "he": "",
+      "he_nikud": "הַיַּנְשׁוּדוֹב פָּעִיל בְּעִיקָר בִּדְמְדּוּמִים וּבַלַּיְלָה, כְּשֶׁהָעֵינַיִם הַגְּדוֹלוֹת שֶׁלּוֹ רוֹאוֹת הַכֹּל בְּחֹשֶׁךְ מֻחְלָט. אִם אַתָּה שׁוֹמֵעַ בַּיַּעַר קוֹל שֶׁהוּא חֵצִי שְׁאָגָה וְחֵצִי יְלָלַת יַנְשׁוּף — תִּשָּׁמֵר."
+    }
+  ],
+  "didYouKnow": {
+    "en": "Owlbears lay eggs like owls! Cubs taken from the nest at a young age can be tamed — though even a tame Owlbear remains dangerous and unpredictable.",
+    "he": "",
+    "he_nikud": "יַנְשׁוּדוֹב מְטִיל בֵּיצִים כְּמוֹ יַנְשׁוּף! גּוּרִים שֶׁנִּלְקְחוּ מֵהַקֵּן בְּגִיל מֻקְדָּם אֶפְשָׁר לְאַלֵּף — אִם כִּי אֲפִילּוּ יַנְשׁוּדוֹב מְאֻלָּף נִשְׁאָר מְסֻכָּן וּבִלְתִּי צָפוּי."
+  },
+  "reveals": [
+    {
+      "type": "weaknesses",
+      "title": {
+        "en": "How do you survive an encounter?",
+        "he": "",
+        "he_nikud": "אֵיךְ שׁוֹרְדִים פְּגִישָׁה?"
+      },
+      "content": {
+        "en": "The Owlbear is an ambush predator — it hides in the dense forest and then charges with terrifying speed. The good news: it isn't especially smart, and can be distracted with food. If it's already attacking — don't run. Running will trigger its hunting instinct. Stand your ground and try to frighten it with noise or fire.",
+        "he": "",
+        "he_nikud": "יַנְשׁוּדוֹב הוּא טוֹרֵף הָאוֹרֵב לְטַרְפּוֹ — הוּא מִסְתַּתֵּר בְּעֻבִּי הַיַּעַר וְאַחַר כָּךְ פּוֹרֵץ בְּמָהִירוּת מַפְחִידָה. הַצָּד הַטּוֹב: הוּא אֵינוֹ חָכָם בִּמְיֻחָד, וְאֶפְשָׁר לְהַסִּיחַ אֶת דַּעְתּוֹ עִם אֹכֶל. אִם הוּא כְּבָר תּוֹקֵף — אַל תָּנוּס. רִיצָה תַּעוֹרֵר אֶצְלוֹ אֶת יֵצֶר הַצַּיִד. עֲמֹד עַל מְקוֹמְךָ וּנְסֵה לְהַפְחִיד אוֹתוֹ בְּרַעַשׁ אוֹ אֵשׁ."
+      }
+    },
+    {
+      "type": "strange",
+      "title": {
+        "en": "Where did it come from?",
+        "he": "",
+        "he_nikud": "מֵאַיִן הוּא הִגִּיעַ?"
+      },
+      "content": {
+        "en": "Inside the game world, there's no definitive answer. Some say a mad wizard created the first Owlbear in a magical experiment, others say it has always existed in the wild. In D&D — it stays a mystery. In our real world, the story is completely clear: Gary Gygax, the creator of D&D, saw a cheap plastic toy sold in bags in the 1970s — a creature that looked like an Owlbear — and decided to put it in the game.",
+        "he": "",
+        "he_nikud": "בְּתוֹךְ עוֹלַם הַמִּשְׂחָק, אֵין תְּשׁוּבָה בְּטוּחָה. יֵשׁ הָאוֹמְרִים שֶׁמְּכַשֵּׁף מְטֹרָף יָצַר אֶת הַיַּנְשׁוּדוֹב הָרִאשׁוֹן בְּנִסּוּי כִּשְׁפִּי, וְיֵשׁ הָאוֹמְרִים שֶׁהוּא חַי בַּטֶּבַע מֵאָז וּמֵעוֹלָם. בְּ-D&D — זֶה נִשְׁאָר מִסְתּוֹרִין. בָּעוֹלָם הָאֲמִתִּי שֶׁלָּנוּ, לְעֻמַּת זֹאת, הַסִּיפּוּר בָּרוּר לְגַמְרֵי: גֵּרִי גִּיגַקְּס, יוֹצֵר D&D, רָאָה צַעֲצוּעַ פְּלַסְטִיק זוֹל שֶׁנִּקְנָה בְּשַׂק מִשָּׁנוֹת הַשִּׁבְעִים — חַיָּה שֶׁנִּרְאֲתָה כְּמוֹ יַנְשׁוּדוֹב — וְהֶחְלִיט לְהַכְנִיס אוֹתָהּ לַמִּשְׂחָק."
+      }
+    }
+  ]
+}

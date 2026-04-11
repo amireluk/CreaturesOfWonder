@@ -1,0 +1,51 @@
+{
+  "id": "siren",
+  "name": { "hebrew": "סִירֶנָה", "english": "Siren" },
+  "stats": { "habitat": "water", "size": "medium", "danger": 3 },
+  "image": "/images/creatures/siren.webp",
+  "description": [
+    {
+      "en": "Sirens are creatures with the upper body of a beautiful woman and large wings with colorful feathers. They live on rocks and cliffs along the coast, where the waves crash and the wind blows strong.",
+      "he": "",
+      "he_nikud": "סִירֶנוֹת הֵן יְצוּרוֹת עִם גּוּף עֶלְיוֹן שֶׁל אִשָּׁה יָפָה וּכְנָפַיִם גְּדוֹלוֹת עִם נוֹצוֹת צִבְעוֹנִיּוֹת. הֵן חָיוֹת עַל סְלָעִים וּמְצוֹקִים לְאֹרֶךְ הַחוֹף, בְּמָקוֹם שֶׁבּוֹ הַגַּלִּים מִתְנַפְּצִים וְהָרוּחַ נוֹשֶׂבֶת בְּעֹז."
+    },
+    {
+      "en": "The Siren's song is not just beautiful — it is magical. Sailors who hear it forget the danger and are drawn toward the rocks. Sirens always sing in trios, each one singing a different melody — together they are far more powerful.",
+      "he": "",
+      "he_nikud": "שִׁיר הַסִּירֶנָה אֵינוֹ רַק יָפֶה — הוּא קָסוּם. הַמַּלָּחִים שֶׁשּׁוֹמְעִים אֶת הַשִּׁיר שׁוֹכְחִים אֶת הַסַּכָּנָה וְנִמְשָׁכִים לְעֵבֶר הַסְּלָעִים. הַסִּירֶנוֹת תָּמִיד שָׁרוֹת בִּשְׁלִישִׁיָּה, כְּשֶׁכָּל אַחַת שָׁרָה לַחַן שׁוֹנֶה — יַחַד הֵן הַרְבֵּה יוֹתֵר חֲזָקוֹת."
+    }
+  ],
+  "didYouKnow": {
+    "en": "A Siren doesn't sing the same song for everyone — she knows what each person wants most, and sings exactly that. For a sailor who misses home, she sings about home. For someone hungry, she sings about food.",
+    "he": "",
+    "he_nikud": "סִירֶנָה לֹא שָׁרָה שִׁיר אֶחָד לְכֻלָּם — הִיא יוֹדַעַת מָה כָּל אָדָם רוֹצֶה בְּיוֹתֵר, וְשָׁרָה לוֹ בְּדִיּוּק אֶת זֶה. לְמַלָּח שֶׁמִּתְגַּעְגֵּעַ לְבֵיתוֹ, הִיא שָׁרָה עַל בַּיִת. לְרָעֵב, הִיא שָׁרָה עַל אֹכֶל."
+  },
+  "reveals": [
+    {
+      "type": "weaknesses",
+      "title": {
+        "en": "How do you resist them?",
+        "he": "",
+        "he_nikud": "אֵיךְ עוֹמְדִים בְּפָנֶיהָ?"
+      },
+      "content": {
+        "en": "Odysseus, the Greek hero, wanted to hear the song without risking himself — so he tied himself to the ship's mast and plugged his crew's ears with beeswax. But the coolest solution? Orpheus simply played his lyre with music even more beautiful than theirs — and they fell silent. You can defeat a Siren with music.",
+        "he": "",
+        "he_nikud": "אוֹדִיסֵאוּס, הַגִּבּוֹר הַיְּווָנִי, רָצָה לִשְׁמֹעַ אֶת הַשִּׁיר בְּלִי לְהִסְתַּכֵּן — אָז קָשַׁר אֶת עַצְמוֹ לַתֹּרֶן הַסְּפִינָה וְסָתַם אֶת אׇזְנֵי חֲבֵרָיו בְּדּוֹנַג דְּבוֹרִים. אֲבָל הַפִּתְרוֹן הַכִּי מְגַנִּיב? אוֹרְפֵאוּס פָּשׁוּט נִגֵּן עַל כִּנּוֹרוֹ מוּסִיקָה יְפָה עוֹד יוֹתֵר מִשֶּׁלָּהֶן — וְהֵן שָׁתְקוּ. אֶפְשָׁר לְנַצֵּחַ סִירֶנָה בְּמוּסִיקָה."
+      }
+    },
+    {
+      "type": "origin",
+      "title": {
+        "en": "Where did the story come from?",
+        "he": "",
+        "he_nikud": "מֵאַיִן הַסִּיפּוּר הִגִּיעַ?"
+      },
+      "content": {
+        "en": "In Greek mythology the Sirens were not mermaids — they were half-woman half-bird! According to legend, they were companions of Persephone, the princess who was kidnapped to the underworld. When they failed to save her, they were transformed into winged creatures. The image of a mermaid with a tail came about a thousand years later, when European stories mixed them up with mermaids.",
+        "he": "",
+        "he_nikud": "בְּמִיתוֹלוֹגְיָה הַיְּווָנִית הַסִּירֶנוֹת לֹא הָיוּ בְּנוֹת יָם — הֵן הָיוּ חֶצִי-אִשָּׁה חֶצִי-צִפּוֹר! לְפִי הָאַגָּדָה, הֵן הָיוּ חֲבֵרוֹת שֶׁל פֶּרְסֶפוֹנֶה, הַנַּסִּיכָה שֶׁנֶּחְטְפָה לָעוֹלָם הַתַּחְתּוֹן. כְּשֶׁלֹּא הָצְלִיחוּ לְהַצִּילָהּ, נֶהֶפְכוּ לִיצוּרֵי כְּנָפַיִם. הַדִּמּוּי שֶׁל בַּת-יָם עִם זָנָב הִגִּיעַ כְּאֶלֶף שָׁנִים מְאֻחָר יוֹתֵר, כְּשֶׁסִּיפּוּרִים אֵירוֹפִּיִּים עֵרְבְּבוּ אוֹתָן עִם בְּנוֹת הַיָּם."
+      }
+    }
+  ]
+}

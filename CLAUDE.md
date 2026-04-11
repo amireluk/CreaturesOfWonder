@@ -40,6 +40,31 @@ Single ambient track for v1. Suno prompt in SPEC.md.
 ## IMPORTANT: Keeping Docs in Sync
 **Whenever a decision changes during development — whether from user feedback, technical constraints, or iteration — update SPEC.md to reflect the change.** The spec is the living source of truth for this project. Don't let it drift from reality.
 
+## Text Pipeline
+
+Creature content lives in `content/{creature}.json`. The `src/data/creatures/*.ts` files are **auto-generated** — never edit them directly. Run `node scripts/generate.js <id>` (or `--all`) to regenerate after editing.
+
+### Content file structure
+Each translatable text field has three versions:
+- `en` — English (source of truth, always write this first)
+- `he` — Hebrew without Nikud (optional review step)
+- `he_nikud` — Hebrew with full Nikud (final, feeds into `.ts`)
+
+### When asked to "apply text pipeline for [creature]"
+1. Read `content/{creature}.json`
+2. Identify what needs work:
+   - `he_nikud` empty, `en` exists → translate `en` to Hebrew + add full Nikud, write to `he_nikud`
+   - `he` populated, `he_nikud` empty → add Nikud to `he`, write to `he_nikud`
+   - User says "I edited the English [field]" → clear `he` and `he_nikud` for that field, retranslate
+3. Write results back to `content/{creature}.json`
+4. Run `node scripts/generate.js {creature}` to regenerate the `.ts`
+
+### Hebrew style rules (apply at translation step)
+- 2nd-3rd grade reading level
+- Field guide tone: creature is real, not a mythology reference
+- Full Nikud on ALL text
+- Natural Hebrew — do not translate literally
+
 ## Working Conventions
 - Iterate on one creature (Troll) until the page is perfect before scaling
 - All creature content must be researched first, then structured — don't template-force
