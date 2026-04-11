@@ -45,6 +45,20 @@ For each text field across `description`, `didYouKnow`, `reveals[].title`, `reve
 
 Write the updated JSON back to `content/$ARGUMENTS.json`.
 
+## Step 2b — Hebrew verification pass
+
+Read back ONLY the `he_nikud` block you just wrote — ignore the English entirely for this step.
+
+Review it as a native Hebrew reader would, checking:
+- **Naturalness**: does it read like something a Hebrew speaker would actually say, or does it sound translated?
+- **Reading level**: is every word and sentence accessible to a 7-9 year old? Flag anything too complex.
+- **Grammar**: agreement (gender/number), correct binyan, proper use of definite article
+- **Nikud accuracy**: vowel points match the word as it would be pronounced. Common errors to check: shva vs hataf, holam male vs haser, dagesh in begadkefat after open syllable
+- **Tone**: field guide, present-tense, creature is real. No "in D&D", no "in mythology" outside of origin reveals.
+- **Flow**: do the paragraphs read smoothly aloud? Any sentence that feels clunky or too long?
+
+Fix any issues found directly in the JSON before moving to Step 3. If you fix something in `he_nikud`, strip the nikud and update `he` to match.
+
 ## Step 3 — Regenerate the .ts file
 
 Run:
