@@ -3,8 +3,18 @@
 A Hebrew-language web app for kids (ages 7-9, native Hebrew speakers) to explore and learn about D&D creatures. Think "Monster Manual for kids" — creatures described as if real, not as literature references.
 
 ## Project Status
-- **Phase**: Spec complete, iterating on first creature (Troll) before scaling to all 25
-- **Next**: Generate Troll image + Suno ambient track, build first creature page, iterate until perfect
+- **Phase**: 6 creatures complete with content + art. Building creature pages.
+- **Next**: Build the creature page UI, iterate until perfect on one creature, then scale to all 26.
+
+## Completed Creatures (content + art ready)
+| Creature | content JSON | .ts | art |
+|----------|-------------|-----|-----|
+| Troll | ✅ | ✅ | ✅ |
+| Beholder | ✅ | ✅ | ✅ |
+| Owlbear | ✅ | ✅ | ✅ |
+| Siren | ✅ | ✅ | ✅ |
+| Mimic | ✅ | ✅ | ✅ |
+| Hydra | ✅ | ✅ | ✅ |
 
 ## Key Decisions
 - **Platform**: PWA, portrait-only for v1, tablet-first (wide viewport 768px+), responsive to phone (narrow viewport)
