@@ -1,0 +1,68 @@
+{
+  "id": "gelatinous cube",
+  "name": {
+    "hebrew": "קוּבִיַּת גֶ'לָטִין",
+    "english": "Gelatinous Cube"
+  },
+  "stats": {
+    "habitat": "underground",
+    "size": "large",
+    "danger": 2
+  },
+  "image": "/images/creatures/gelatinous cube.webp",
+  "reveals": [
+    { "type": "signs" },
+    { "type": "strange" }
+  ],
+  "en": {
+    "description": [
+      "The gelatinous cube is a creature unlike anything else — a perfectly cube-shaped blob of transparent slime, roughly three meters on every side, that silently slides through underground tunnels and dungeon corridors. It is almost completely invisible: you can see straight through it as if it were clear glass, and the only sign it's there might be a rusty sword or a few old bones floating in midair inside its body.",
+      "The cube moves slowly and mindlessly through tunnels, dissolving everything organic it touches with a powerful acid. It doesn't hunt — it doesn't need to. Adventurers who fail to notice it simply walk right into it. Once inside, a victim is paralyzed by the slime and slowly dissolved. Metal objects like swords and coins pass through the cube unharmed and stay floating inside it, suspended like exhibits in a museum."
+    ],
+    "didYouKnow": "The easiest way to find a gelatinous cube is to look for objects floating in midair — those are the leftovers from its last meal.",
+    "reveals": [
+      {
+        "title": "How to spot one",
+        "content": "The most dangerous thing about a gelatinous cube is that you can't see it. The trick experienced adventurers use: look for things floating at chest height with nothing visible holding them up. A sword hovering in the middle of a corridor. A boot suspended three feet off the ground. Scattered coins hanging in midair. If something looks like it's floating by itself in a dark tunnel, there's almost certainly a gelatinous cube around it. Back away slowly."
+      },
+      {
+        "title": "Why is it a cube?",
+        "content": "Nobody fully understands why gelatinous cubes are perfect cubes — but the shape is no accident. Dungeon corridors are usually square, about three meters wide and three meters tall, and a gelatinous cube fits exactly. It fills the whole passage wall to wall, ceiling to floor, leaving no gap to squeeze past. This isn't random — over countless generations, the cubes that fit their tunnels best were the ones that found the most food. The cube shape is a predator perfectly designed for one job: cleaning every corridor it passes through."
+      }
+    ]
+  },
+  "he": {
+    "description": [
+      "קוביית הג'לטין היא יצור שאין כמוהו — גוש שקוף של ריר בצורת קוביה מדויקת, כשלושה מטרים בכל צד, שנעה בשקט דרך מנהרות ומסדרונות חשוכים מתחת לאדמה. היא כמעט לגמרי בלתי נראית: אפשר לראות דרך גופה כאילו היא עשויה זכוכית שקופה, והסימן היחיד שהיא שם עשוי להיות חרב חלודה או כמה עצמות ישנות שצפות באוויר בתוך גופה.",
+      "הקוביה נעה לאט ובלי מחשבה דרך המנהרות, ממיסה בחומצה חזקה כל דבר חי שנוגע בה. היא לא צדה — אין לה צורך בכך. רפתקנים שלא שמו לב פשוט הולכים לתוכה. בתוך הקוביה, הקורבן משותק מהריר ונמס לאט לאט. חפצים ממתכת כמו חרבות ומטבעות עוברים דרכה בלי להיפגע וצפים בתוכה, תלויים כמו תצוגה במוזיאון."
+    ],
+    "didYouKnow": "הדרך הכי קלה למצוא קוביית ג'לטין היא לחפש חפצים שצפים באוויר — אלה שאריות הארוחה האחרונה שלה.",
+    "reveals": [
+      {
+        "title": "איך מזהים אותה",
+        "content": "הדבר המסוכן ביותר בקוביית הג'לטין הוא שלא רואים אותה. הטריק שרפתקנים מנוסים משתמשים בו: לחפש חפצים שצפים בגובה החזה בלי ששום דבר מחזיק אותם. חרב שמרחפת באמצע המסדרון. נעל שתלויה באוויר. מטבעות מפוזרות שלא נופלות. אם משהו נראה כאילו הוא צף לבד במנהרה חשוכה, כמעט בוודאי יש שם קוביית ג'לטין. לאחור לאט."
+      },
+      {
+        "title": "למה היא קוביה?",
+        "content": "אף אחד לא מבין לגמרי למה קוביות הג'לטין הן בצורת קוביה מדויקת — אבל זה לא מקרי. רוב המנהרות העמוקות הן מרובעות, כשלושה מטרים רוחב ושלושה מטרים גובה, וקוביית הג'לטין מתאימה בדיוק. היא ממלאת את כל המעבר מקיר לקיר, מרצפה לתקרה, בלי שום רווח לעבור דרכה. לאורך דורות רבים, הקוביות שהתאימו הכי טוב למנהרות הן שמצאו הכי הרבה אוכל. הקוביה היא טורף שנוצר בדיוק למשרה אחת: לנקות כל מסדרון שהיא עוברת בו."
+      }
+    ]
+  },
+  "he_nikud": {
+    "description": [
+      "קוּבִיַּת הַגֶּ'לָטִין הִיא יְצוּר שֶׁאֵין כְּמוֹהוּ — גּוּשׁ שְׁקוּף שֶׁל רִיר בְּצוּרַת קוּבִיָּה מְדֻיֶּקֶת, כִּשְׁלוֹשָׁה מֶטְרִים בְּכָל צַד, שֶׁנָּעָה בְּשֶׁקֶט דֶּרֶךְ מִנְהָרוֹת וּמִסְדְּרוֹנוֹת חֲשׁוּכִים מִתַּחַת לָאֲדָמָה. הִיא כִּמְעַט לְגַמְרֵי בִּלְתִּי נִרְאֵית: אֶפְשָׁר לִרְאוֹת דֶּרֶךְ גּוּפָהּ כְּאִילּוּ הִיא עֲשׂוּיָה זְכוּכִית שְׁקוּפָה, וְהַסִּימָן הַיָּחִיד שֶׁהִיא שָׁם עָשׂוּי לִהְיוֹת חֶרֶב חֲלוּדָה אוֹ כַּמָּה עֲצָמוֹת יְשָׁנוֹת שֶׁצָּפוֹת בָּאֲוִיר בְּתוֹךְ גּוּפָהּ.",
+      "הַקּוּבִיָּה נָעָה לְאַט וּבְלִי מַחְשָׁבָה דֶּרֶךְ הַמִּנְהָרוֹת, מֵמִיסָה בְּחוּמְצָה חַזָּקָה כָּל דָּבָר חַי שֶׁנּוֹגֵעַ בָּהּ. הִיא לֹא צָדָה — אֵין לָהּ צֹרֶךְ בְּכָךְ. רַפְתְּקָנִים שֶׁלֹּא שָׂמוּ לֵב פָּשׁוּט הוֹלְכִים לְתוֹכָהּ. בְּתוֹךְ הַקּוּבִיָּה, הַקּוּרְבָּן מְשֻׁתָּק מֵהָרִיר וְנִמַּס לְאַט לְאַט. חֲפָצִים מִמַּתֶּכֶת כְּמוֹ חֲרָבוֹת וּמַטְבְּעוֹת עוֹבְרִים דַּרְכָּהּ בְּלִי לְהִפָּגַע וְצָפִים בְּתוֹכָהּ, תְּלוּיִים כְּמוֹ תַּצּוּגָה בְּמוּזֵיאוֹן."
+    ],
+    "didYouKnow": "הַדֶּרֶךְ הַכִּי קַלָּה לִמְצֹא קוּבִיַּת גֶּ'לָטִין הִיא לְחַפֵּשׂ חֲפָצִים שֶׁצָּפִים בָּאֲוִיר — אֵלֶּה שְׁאָרִיּוֹת הָאֲרוּחָה הָאַחֲרוֹנָה שֶׁלָּהּ.",
+    "reveals": [
+      {
+        "title": "אֵיךְ מְזַהִים אוֹתָהּ",
+        "content": "הַדָּבָר הַמְּסֻכָּן בְּיוֹתֵר בְּקוּבִיַּת הַגֶּ'לָטִין הוּא שֶׁלֹּא רוֹאִים אוֹתָהּ. הַטְּרִיק שֶׁרַפְתְּקָנִים מְנֻסִּים מִשְׁתַּמְּשִׁים בּוֹ: לְחַפֵּשׂ חֲפָצִים שֶׁצָּפִים בְּגֹבַהּ הַחָזֶה בְּלִי שֶׁשּׁוּם דָּבָר מַחֲזִיק אוֹתָם. חֶרֶב שֶׁמְּרַחֶפֶת בְּאֶמְצַע הַמִּסְדְּרוֹן. נַעַל שֶׁתְּלוּיָה בָּאֲוִיר. מַטְבְּעוֹת מְפֻזָּרוֹת שֶׁלֹּא נוֹפְלוֹת. אִם מַשֶּׁהוּ נִרְאֶה כְּאִילּוּ הוּא צָף לְבַד בְּמִנְהָרָה חֲשׁוּכָה, כִּמְעַט בְּוַדַּאי יֵשׁ שָׁם קוּבִיַּת גֶּ'לָטִין. לְאָחוֹר לְאַט."
+      },
+      {
+        "title": "לָמָּה הִיא קוּבִיָּה?",
+        "content": "אַף אֶחָד לֹא מְבִין לְגַמְרֵי לָמָּה קוּבִיּוֹת הַגֶּ'לָטִין הֵן בְּצוּרַת קוּבִיָּה מְדֻיֶּקֶת — אֲבָל זֶה לֹא מִקְרִי. רֹב הַמִּנְהָרוֹת הָעֲמֻקּוֹת הֵן מְרֻבָּעוֹת, כִּשְׁלוֹשָׁה מֶטְרִים רוֹחַב וּשְׁלוֹשָׁה מֶטְרִים גֹּבַהּ, וְקוּבִיַּת הַגֶּ'לָטִין מַתְאִימָה בְּדִיּוּק. הִיא מְמַלֵּאת אֶת כָּל הַמַּעֲבָר מִקִּיר לְקִיר, מֵרִצְפָּה לְתִקְרָה, בְּלִי שׁוּם רֶוַח לַעֲבֹר דַּרְכָּהּ. לְאוֹרֶךְ דּוֹרוֹת רַבִּים, הַקּוּבִיּוֹת שֶׁהִתְאִימוּ הֲכִי טוֹב לַמִּנְהָרוֹת הֵן שֶׁמָּצְאוּ הֲכִי הַרְבֵּה אֹכֶל. הַקּוּבִיָּה הִיא טוֹרֵף שֶׁנּוֹצַר בְּדִיּוּק לְמִשְׂרָה אַחַת: לְנַקּוֹת כָּל מִסְדְּרוֹן שֶׁהִיא עוֹבֶרֶת בּוֹ."
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "red dragon",
+  "name": {
+    "hebrew": "דְּרָקוֹן אָדֹם",
+    "english": "Red Dragon"
+  },
+  "stats": {
+    "habitat": "mountain",
+    "size": "huge",
+    "danger": 5
+  },
+  "image": "/images/creatures/red dragon.webp",
+  "reveals": [
+    { "type": "lair" },
+    { "type": "abilities" }
+  ],
+  "en": {
+    "description": [
+      "Red dragons are the most feared creatures in the world — enormous winged reptiles with deep crimson scales that gleam like hot coals in the dark. They make their lairs inside active volcanoes and on the highest mountain peaks, where rivers of lava run and smoke fills the air. The heat that would kill any other creature feels like home to them.",
+      "Red dragons are extraordinarily intelligent and believe, with total certainty, that they are the rulers of everything they can see. They spend centuries collecting gold, gems, and treasures, building enormous hoards in the deepest chambers of their volcanic lairs. A red dragon knows every single coin in its hoard by memory — and if even one goes missing, it will tear the entire mountain apart to get it back."
+    ],
+    "didYouKnow": "You can feel a red dragon's body heat from thirty meters away — before you ever see it.",
+    "reveals": [
+      {
+        "title": "Inside the volcano",
+        "content": "A red dragon's lair is inside an active volcano — tunnels of black rock, rivers of glowing lava, and air thick with sulfur smoke. In the deepest chamber, where the heat is most intense, sits the hoard: a mountain of gold coins, gems, crowns, weapons, and anything precious the dragon has collected over centuries. The dragon sleeps right on top of its treasure. It can feel every single coin beneath its scales, and it knows instantly if anything has moved."
+      },
+      {
+        "title": "The fire breath",
+        "content": "A red dragon's most devastating weapon is its fire breath — a massive cone of flame that erupts from its throat in less than a second. The fire is hot enough to melt iron and turn stone walls to ash. An adult red dragon can spray flames that fill a space larger than a classroom, and the oldest dragons breathe fire powerful enough to level an entire building in one blast. After breathing fire, the dragon needs a few seconds before it can do it again — but those seconds are the only window to escape."
+      }
+    ]
+  },
+  "he": {
+    "description": [
+      "דרקונים אדומים הם היצורים שכולם פוחדים מהם ביותר בעולם — זוחלים מכונפים ענקיים בעלי קשקשים אדומים כהים שנוצצים כגחלים לוהטות בחושך. הם בונים את מאורותיהם בתוך הרי געש פעילים ועל פסגות ההרים הגבוהות ביותר, שם זורמים נהרות לבה ועשן ממלא את האוויר. החום שיהרוג כל יצור אחר מרגיש להם כמו בית.",
+      "דרקונים אדומים הם בעלי אינטליגנציה יוצאת דופן, והם בטוחים בכל ליבם שהם שליטי כל מה שנמצא בטווח ראייתם. הם מבלים מאות שנים באיסוף זהב, אבני חן ואוצרות, בונים מאגרים עצומים בחדרים העמוקים ביותר של מאורותיהם הגעשיים. דרקון אדום זוכר בעל פה כל מטבע יחיד באוצר שלו — ואם אפילו אחד נעלם, הוא יהרוס את כל ההר כדי להחזיר אותו."
+    ],
+    "didYouKnow": "אפשר להרגיש את חום גופו של דרקון אדום ממרחק שלושים מטר — עוד לפני שרואים אותו.",
+    "reveals": [
+      {
+        "title": "בתוך הר הגעש",
+        "content": "מאורתו של דרקון אדום נמצאת בתוך הר געש פעיל — מנהרות של סלע שחור, נהרות של לבה קורנת ואוויר עב בעשן גפרית. בחדר העמוק ביותר, שם החום הוא הקיצוני ביותר, יושב האוצר: הר של מטבעות זהב, אבני חן, כתרים, נשק וכל דבר יקר שהדרקון אסף לאורך מאות שנים. הדרקון ישן ממש על גבי האוצר שלו. הוא חש כל מטבע מתחת לקשקשיו, ויודע מיד אם משהו זז."
+      },
+      {
+        "title": "נשיפת האש",
+        "content": "נשק ההרס הגדול ביותר של דרקון אדום הוא נשיפת האש שלו — חרוט ענק של אש שפורץ מגרונו בפחות משנייה. האש חמה מספיק להמיס ברזל ולהפוך קירות אבן לאפר. דרקון אדום בוגר יכול לפלוט להבות שממלאות שטח גדול יותר מכיתת לימוד, והדרקונים הוותיקים ביותר נושפים אש עוצמתית דיה להרוס בניין שלם בנשיפה אחת. לאחר נשיפת האש, הדרקון זקוק לכמה שניות לפני שיכול לחזור על כך — אך אותן שניות הן הפתח היחיד לבריחה."
+      }
+    ]
+  },
+  "he_nikud": {
+    "description": [
+      "דְּרָקוֹנִים אֲדֻמִּים הֵם הַיְּצוּרִים שֶׁכֻּלָּם פּוֹחֲדִים מֵהֶם בְּיוֹתֵר בָּעוֹלָם — זוֹחֲלִים מְכֻנָּפִים עֲנָקִיִּים בַּעֲלֵי קַשְׂקַשִּׂים אֲדֻמִּים כֵּהִים שֶׁנּוֹצְצִים כְּגַחֲלִים לוֹהֲטוֹת בַּחֹשֶׁךְ. הֵם בּוֹנִים אֶת מְאוּרוֹתֵיהֶם בְּתוֹךְ הָרֵי גַּעַשׁ פְּעִילִים וְעַל פִּסְגּוֹת הֶהָרִים הַגְּבוֹהוֹת בְּיוֹתֵר, שָׁם זוֹרְמִים נַהֲרוֹת לַאבָה וְעָשָׁן מְמַלֵּא אֶת הָאֲוִיר. הַחֹם שֶׁיַּהֲרֹג כָּל יְצוּר אַחֵר מַרְגִּישׁ לָהֶם כְּמוֹ בַּיִת.",
+      "דְּרָקוֹנִים אֲדֻמִּים הֵם בַּעֲלֵי אִינְטֶלִיגֶנְצְיָה יוֹצֵאת דּוֹפֶן, וְהֵם בְּטוּחִים בְּכָל לִבָּם שֶׁהֵם שַׁלִּיטֵי כָּל מַה שֶׁנִּמְצָא בִּטְווַח רְאִיָּתָם. הֵם מְבַלִּים מֵאוֹת שָׁנִים בְּאִיסּוּף זָהָב, אַבְנֵי חֵן וְאוֹצָרוֹת, בּוֹנִים מַאֲגָרִים עֲצוּמִים בַּחֲדָרִים הָעֲמֻקִּים בְּיוֹתֵר שֶׁל מְאוּרוֹתֵיהֶם הַגַּעְשִׁיִּים. דְּרָקוֹן אָדֹם זוֹכֵר בְּעַל פֶּה כָּל מַטְבֵּעַ יָחִיד בְּאוֹצָרוֹ — וְאִם אֲפִילּוּ אֶחָד נֶעְלָם, הוּא יַהֲרֹס אֶת כָּל הָהָר כְּדֵי לְהַחְזִיר אוֹתוֹ."
+    ],
+    "didYouKnow": "אֶפְשָׁר לְהַרְגִּישׁ אֶת חֹם גּוּפוֹ שֶׁל דְּרָקוֹן אָדֹם מִמֶּרְחָק שְׁלוֹשִׁים מֶטֶר — עוֹד לִפְנֵי שֶׁרוֹאִים אוֹתוֹ.",
+    "reveals": [
+      {
+        "title": "בְּתוֹךְ הַר הַגַּעַשׁ",
+        "content": "מְאוּרָתוֹ שֶׁל דְּרָקוֹן אָדֹם נִמְצֵאת בְּתוֹךְ הַר גַּעַשׁ פָּעִיל — מִנְהָרוֹת שֶׁל סֶלַע שָׁחֹר, נַהֲרוֹת שֶׁל לַאבָה קוֹרֶנֶת וְאֲוִיר עָב בְּעָשָׁן גָּפְרִית. בַּחֲדָר הָעָמֹק בְּיוֹתֵר, שָׁם הַחֹם הוּא הַקִּיצוֹנִי בְּיוֹתֵר, יוֹשֵׁב הָאוֹצָר: הַר שֶׁל מַטְבְּעוֹת זָהָב, אַבְנֵי חֵן, כְּתָרִים, נֶשֶׁק וְכָל דָּבָר יָקָר שֶׁהַדְּרָקוֹן אָסַף לְאוֹרֶךְ מֵאוֹת שָׁנִים. הַדְּרָקוֹן יָשֵׁן מַמָּשׁ עַל גַּבֵּי הָאוֹצָר שֶׁלּוֹ. הוּא חָשׁ כָּל מַטְבֵּעַ מִתַּחַת לְקַשְׂקַשָּׂיו, וְיוֹדֵעַ מִיָּד אִם מַשֶּׁהוּ זָז."
+      },
+      {
+        "title": "נְשִׁיפַת הָאֵשׁ",
+        "content": "נֶשֶׁק הַהֶרֶס הַגָּדוֹל בְּיוֹתֵר שֶׁל דְּרָקוֹן אָדֹם הוּא נְשִׁיפַת הָאֵשׁ שֶׁלּוֹ — חָרוּט עֲנָק שֶׁל אֵשׁ שֶׁפּוֹרֵץ מִגְּרוֹנוֹ בְּפָחוֹת מִשְּׁנִיָּה. הָאֵשׁ חַמָּה מַסְפִּיק כְּדֵי לְהָמֵס בַּרְזֶל וּלְהַפֵּךְ קִירוֹת אֶבֶן לָאֵפֶר. דְּרָקוֹן אָדֹם בָּגוּר יָכוֹל לִפְלֹט לְהָבוֹת שֶׁמְּמַלְּאוֹת שֶׁטַח גָּדוֹל יוֹתֵר מִכִּיתַת לִימּוּד, וְהַדְּרָקוֹנִים הַוָּתִיקִים בְּיוֹתֵר נוֹשְׁפִים אֵשׁ עֲצוּמָה דַּיָּהּ לְהָרֵס בִּנְיָן שָׁלֵם בִּנְשִׁיפָה אַחַת. לְאַחַר נְשִׁיפַת הָאֵשׁ, הַדְּרָקוֹן זָקוּק לְכַמָּה שְׁנִיּוֹת לִפְנֵי שֶׁיּוּכַל לַחֲזֹר עַל כָּךְ — אֲבָל אוֹתָן שְׁנִיּוֹת הֵן הַפֶּתַח הַיָּחִיד לַבְּרִיחָה."
+      }
+    ]
+  }
+}

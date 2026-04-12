@@ -91,6 +91,10 @@ function serialize(val, depth = 0) {
   return String(val);
 }
 
+function toCamelCase(id) {
+  return id.replace(/\s+(.)/g, (_, char) => char.toUpperCase());
+}
+
 function generate(id) {
   const contentPath = path.join(contentDir, `${id}.json`);
   if (!fs.existsSync(contentPath)) {
@@ -100,11 +104,12 @@ function generate(id) {
 
   const content = JSON.parse(fs.readFileSync(contentPath, "utf8"));
   const creature = buildCreature(content);
+  const exportName = toCamelCase(id);
 
   const output = `import { Creature } from "@/lib/types";
 
 // AUTO-GENERATED from content/${id}.json — edit that file, not this one
-export const ${id}: Creature = ${serialize(creature)};
+export const ${exportName}: Creature = ${serialize(creature)};
 `;
 
   const outputPath = path.join(outputDir, `${id}.ts`);

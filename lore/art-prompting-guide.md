@@ -331,6 +331,38 @@ Before finalizing any creature prompt, verify:
 >
 > No text in image. No gore, wounds, or horror. No humans in frame. No photorealism, no 3D rendering, no hard digital edges, no flat cel-shading, no crosshatching, no anime style.
 
+### Gelatinous Cube
+
+> Watercolor and ink illustration on textured cream paper. Thin confident brush-pen ink outlines with transparent watercolor washes, visible paper grain, soft muted palette. Near-translucent washes — the creature body is barely visible. Minimal linework — ink defines the cube's outer corners and edges only. Smooth geometric form.
+>
+> A massive D&D gelatinous cube filling a dungeon corridor wall to wall and floor to ceiling — a perfect cube of transparent slime, three meters on each side. The cube body is rendered as a very faint pale blue-green wash, nearly invisible — just a soft tint and slightly thicker ink lines tracing the eight corners and four vertical edges. Inside the cube: clearly visible floating contents — a bent rusty sword, scattered old bones, a few gold coins — suspended in warm muted tones, slightly blurred by the translucent gel around them. The floating contents ARE the defining feature; the cube body is barely there. Dungeon stone walls dimly visible through the cube.
+>
+> The cube simply ambles forward, mindless and oblivious — no face, no expression, no awareness. The whole image carries a quiet absurdity: an enormous invisible box full of bones, going about its business.
+>
+> Straight-on view from slightly below eye level, looking directly at the cube. The cube fills the frame edge to edge. Portrait orientation 3:4.
+>
+> Background: loose watercolor washes only — grey-brown dungeon stone corridor walls framing both sides, warm amber torch-glow from one side casting a soft golden wash. No ink lines in background — pure wash shapes only.
+>
+> Edges fade softly to cream paper. Bottom quarter is dark dungeon floor tones, simple for text overlay.
+>
+> No text in image. No gore, wounds, or horror. No humans in frame. No photorealism, no 3D rendering, no hard digital edges, no flat cel-shading, no crosshatching, no anime style.
+
+### Red Dragon
+
+> Watercolor and ink illustration on textured cream paper. Thin confident brush-pen ink outlines with transparent watercolor washes, visible paper grain, wet-into-wet color blending, soft warm palette. Solid color presence — NOT washed out. Minimal interior linework — ink defines outer silhouette and face only. Smooth rounded forms.
+>
+> A massive D&D red dragon perched on a volcanic rocky ledge, filling the frame. Enormous rounded body with real physical weight — deep crimson-red scales rendered as overlapping flat wash shapes in warm red and dark burgundy, no individual scales drawn with ink. Massive wings spread wide — the defining feature, broad and leathery, rendered in deep red-orange wash with dark burgundy veins as wash shapes only. Long neck curves up to a triangular head angled down toward the viewer. Swept-back horns. Amber slit-eyes staring down. Smoke curling lazily from both nostrils.
+>
+> Expression is smug and regal — the bored contempt of a creature that considers itself king of everything it can see. Head tilted down slightly, like royalty noticing something beneath its dignity. Not angry. Dismissive.
+>
+> Extreme low-angle view from ground level, looking sharply up. Wings fill the sky behind the dragon. Three-quarter body visible. Portrait orientation 3:4.
+>
+> Background: loose watercolor washes only — volcanic amber-orange glow, warm lava light rising from below, smoky red-grey sky. Heat evoked through color and warmth, no defined shapes. No ink lines in background — pure watercolor wash shapes only.
+>
+> Edges fade softly to cream paper. Bottom quarter transitions to dark volcanic rock tones, kept simple for text overlay.
+>
+> No text in image. No gore, wounds, or horror. No humans in frame. No photorealism, no 3D rendering, no hard digital edges, no flat cel-shading, no individual scale linework, no crosshatching, no anime style.
+
 ---
 
 ## 5. After-Generation Refinement Phrases
