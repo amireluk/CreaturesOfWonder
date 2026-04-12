@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { RevealSection } from "@/lib/types";
+import { useNikud } from "@/contexts/NikudContext";
+import { stripNikud } from "@/lib/nikud";
 
 const revealIcons: Record<string, string> = {
   survive: "🛡️",
@@ -24,6 +26,8 @@ interface RevealCardProps {
 
 export default function RevealCard({ reveal }: RevealCardProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const { showNikud } = useNikud();
+  const hn = (text: string) => (showNikud ? text : stripNikud(text));
   const icon = reveal.icon || revealIcons[reveal.type] || "📖";
 
   return (
@@ -36,7 +40,7 @@ export default function RevealCard({ reveal }: RevealCardProps) {
         <div className="flex items-center gap-3">
           <span className="text-2xl">{icon}</span>
           <h3 className="text-lg font-bold" style={{ color: "var(--color-accent)" }}>
-            {reveal.title}
+            {hn(reveal.title)}
           </h3>
         </div>
         <motion.span
@@ -67,7 +71,7 @@ export default function RevealCard({ reveal }: RevealCardProps) {
                 className="text-base leading-relaxed"
                 style={{ color: "var(--color-ink)" }}
               >
-                {reveal.content}
+                {hn(reveal.content)}
               </p>
             </div>
           </motion.div>

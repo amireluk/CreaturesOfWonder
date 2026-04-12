@@ -4,6 +4,7 @@ import { useState, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Creature } from "@/lib/types";
 import CreaturePage from "@/components/CreaturePage";
+import { useNikud } from "@/contexts/NikudContext";
 
 interface BookViewerProps {
   creatures: Creature[];
@@ -16,6 +17,7 @@ export default function PortraitBookViewer({ creatures }: BookViewerProps) {
   const [direction, setDirection] = useState<1 | -1>(1);
   const touchStartX = useRef<number | null>(null);
 
+  const { showNikud, toggleNikud } = useNikud();
   const safeIndex = Math.min(index, Math.max(0, creatures.length - 1));
 
   const goTo = useCallback((next: number) => {
@@ -100,14 +102,28 @@ export default function PortraitBookViewer({ creatures }: BookViewerProps) {
             className="w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-lg disabled:opacity-30 active:scale-95"
             style={{ backgroundColor: "var(--color-accent-gold)", color: "#2c1810" }}>‹</button>
 
-          <div className="flex gap-2">
-            {creatures.map((_, i) => (
-              <button key={i} onClick={() => goTo(i)} className="rounded-full transition-all"
-                style={{
-                  width: i === safeIndex ? "20px" : "8px", height: "8px",
-                  backgroundColor: i === safeIndex ? "var(--color-accent-gold)" : "rgba(197,148,58,0.35)",
-                }} />
-            ))}
+          <div className="flex flex-col items-center gap-2">
+            <div className="flex gap-2">
+              {creatures.map((_, i) => (
+                <button key={i} onClick={() => goTo(i)} className="rounded-full transition-all"
+                  style={{
+                    width: i === safeIndex ? "20px" : "8px", height: "8px",
+                    backgroundColor: i === safeIndex ? "var(--color-accent-gold)" : "rgba(197,148,58,0.35)",
+                  }} />
+              ))}
+            </div>
+            <button
+              onClick={toggleNikud}
+              className="text-xs px-2 py-0.5 rounded-full transition-all"
+              style={{
+                backgroundColor: showNikud ? "rgba(197,148,58,0.25)" : "transparent",
+                color: showNikud ? "var(--color-accent-gold)" : "rgba(197,148,58,0.5)",
+                border: "1px solid",
+                borderColor: showNikud ? "var(--color-accent-gold)" : "rgba(197,148,58,0.3)",
+              }}
+            >
+              {showNikud ? "אָ ניקוד" : "א ניקוד"}
+            </button>
           </div>
 
           <button onClick={() => goTo(safeIndex + 1)} disabled={safeIndex === creatures.length - 1}

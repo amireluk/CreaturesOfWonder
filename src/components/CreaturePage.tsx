@@ -2,6 +2,8 @@
 
 import { Creature } from "@/lib/types";
 import { assetUrl } from "@/lib/assets";
+import { useNikud } from "@/contexts/NikudContext";
+import { stripNikud } from "@/lib/nikud";
 import StatsStrip from "./StatsStrip";
 import RevealCard from "./RevealCard";
 
@@ -10,6 +12,9 @@ interface CreaturePageProps {
 }
 
 export default function CreaturePage({ creature }: CreaturePageProps) {
+  const { showNikud } = useNikud();
+  const hn = (text: string) => (showNikud ? text : stripNikud(text));
+
   return (
     <div className="max-w-lg mx-auto px-4 pb-12">
       {/* Hero Image */}
@@ -22,7 +27,7 @@ export default function CreaturePage({ creature }: CreaturePageProps) {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/70 to-transparent" />
         <div className="absolute bottom-4 right-4 left-4 text-right">
           <h1 className="text-4xl font-black text-white drop-shadow-lg leading-tight">
-            {creature.name.hebrew}
+            {hn(creature.name.hebrew)}
           </h1>
           <span className="text-lg text-white/80">({creature.name.english})</span>
         </div>
@@ -41,7 +46,7 @@ export default function CreaturePage({ creature }: CreaturePageProps) {
       <div className="mb-6 px-1 flex flex-col gap-3">
         {creature.description.map((para, i) => (
           <p key={i} className="text-lg leading-loose" style={{ color: "var(--color-ink)" }}>
-            {para}
+            {hn(para)}
           </p>
         ))}
       </div>
@@ -64,7 +69,7 @@ export default function CreaturePage({ creature }: CreaturePageProps) {
               הידעת?
             </h3>
             <p className="text-base leading-relaxed" style={{ color: "var(--color-ink)" }}>
-              {creature.didYouKnow}
+              {hn(creature.didYouKnow)}
             </p>
           </div>
         </div>

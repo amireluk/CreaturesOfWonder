@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { NikudProvider } from "@/contexts/NikudContext";
 
 export const metadata: Metadata = {
   title: "ספר היצורים המופלאים",
@@ -19,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="he" dir="rtl">
-      <body className="min-h-screen antialiased">{children}</body>
+      <body className="min-h-screen antialiased">
+        <NikudProvider>{children}</NikudProvider>
+      </body>
     </html>
   );
 }
